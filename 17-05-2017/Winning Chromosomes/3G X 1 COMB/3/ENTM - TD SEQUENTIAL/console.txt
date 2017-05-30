@@ -1,0 +1,3364 @@
+"C:\Program Files\Java\jdk1.8.0_112\bin\java" "-javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2017.1.3\lib\idea_rt.jar=56378:C:\Program Files\JetBrains\IntelliJ IDEA 2017.1.3\bin" -Dfile.encoding=UTF-8 -classpath "C:\Program Files\Java\jdk1.8.0_112\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_112\jre\lib\deploy.jar;C:\Program Files\Java\jdk1.8.0_112\jre\lib\ext\access-bridge-64.jar;C:\Program Files\Java\jdk1.8.0_112\jre\lib\ext\cldrdata.jar;C:\Program Files\Java\jdk1.8.0_112\jre\lib\ext\dnsns.jar;C:\Program Files\Java\jdk1.8.0_112\jre\lib\ext\jaccess.jar;C:\Program Files\Java\jdk1.8.0_112\jre\lib\ext\jfxrt.jar;C:\Program Files\Java\jdk1.8.0_112\jre\lib\ext\localedata.jar;C:\Program Files\Java\jdk1.8.0_112\jre\lib\ext\nashorn.jar;C:\Program Files\Java\jdk1.8.0_112\jre\lib\ext\sunec.jar;C:\Program Files\Java\jdk1.8.0_112\jre\lib\ext\sunjce_provider.jar;C:\Program Files\Java\jdk1.8.0_112\jre\lib\ext\sunmscapi.jar;C:\Program Files\Java\jdk1.8.0_112\jre\lib\ext\sunpkcs11.jar;C:\Program Files\Java\jdk1.8.0_112\jre\lib\ext\zipfs.jar;C:\Program Files\Java\jdk1.8.0_112\jre\lib\javaws.jar;C:\Program Files\Java\jdk1.8.0_112\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_112\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_112\jre\lib\jfxswt.jar;C:\Program Files\Java\jdk1.8.0_112\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_112\jre\lib\management-agent.jar;C:\Program Files\Java\jdk1.8.0_112\jre\lib\plugin.jar;C:\Program Files\Java\jdk1.8.0_112\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_112\jre\lib\rt.jar;C:\Users\lusa\Desktop\Git\MSc-Thesis\17-05-2017\neuralturingmachines-master\out\production\neuralturingmachines-master;C:\Users\lusa\Desktop\Git\MSc-Thesis\17-05-2017\neuralturingmachines-master\lib\commons-primitives-1.0.jar;C:\Users\lusa\Desktop\Git\MSc-Thesis\17-05-2017\neuralturingmachines-master\lib\dyn4j-v3.1.8.jar;C:\Users\lusa\Desktop\Git\MSc-Thesis\17-05-2017\neuralturingmachines-master\lib\hb16.jar;C:\Users\lusa\Desktop\Git\MSc-Thesis\17-05-2017\neuralturingmachines-master\lib\jfreechart.jar;C:\Users\lusa\Desktop\Git\MSc-Thesis\17-05-2017\neuralturingmachines-master\lib\aparapi.jar;C:\Users\lusa\Desktop\Git\MSc-Thesis\17-05-2017\neuralturingmachines-master\lib\bain.jar;C:\Users\lusa\Desktop\Git\MSc-Thesis\17-05-2017\neuralturingmachines-master\lib\jai_imageio.jar;C:\Users\lusa\Desktop\Git\MSc-Thesis\17-05-2017\neuralturingmachines-master\lib\jakarta-regexp-1.3.jar;C:\Users\lusa\Desktop\Git\MSc-Thesis\17-05-2017\neuralturingmachines-master\lib\clibwrapper_jiio.jar;C:\Users\lusa\Desktop\Git\MSc-Thesis\17-05-2017\neuralturingmachines-master\lib\xstream-1.4.8.jar;C:\Users\lusa\Desktop\Git\MSc-Thesis\17-05-2017\neuralturingmachines-master\lib\commons-io-2.4.jar;C:\Users\lusa\Desktop\Git\MSc-Thesis\17-05-2017\neuralturingmachines-master\lib\xmlpull-1.1.3.1.jar;C:\Users\lusa\Desktop\Git\MSc-Thesis\17-05-2017\neuralturingmachines-master\lib\commons-math3-3.1.1.jar;C:\Users\lusa\Desktop\Git\MSc-Thesis\17-05-2017\neuralturingmachines-master\lib\jgap.jar;C:\Users\lusa\Desktop\Git\MSc-Thesis\17-05-2017\neuralturingmachines-master\lib\jmagick.jar;C:\Users\lusa\Desktop\Git\MSc-Thesis\17-05-2017\neuralturingmachines-master\lib\wildcard-1.03.jar;C:\Users\lusa\Desktop\Git\MSc-Thesis\17-05-2017\neuralturingmachines-master\lib\jcommon.jar;C:\Users\lusa\Desktop\Git\MSc-Thesis\17-05-2017\neuralturingmachines-master\lib\commons-math3-3.5-javadoc.jar;C:\Users\lusa\Desktop\Git\MSc-Thesis\17-05-2017\neuralturingmachines-master\lib\commons-lang3-3.1.jar;C:\Users\lusa\Desktop\Git\MSc-Thesis\17-05-2017\neuralturingmachines-master\lib\jcommander.jar;C:\Users\lusa\Desktop\Git\MSc-Thesis\17-05-2017\neuralturingmachines-master\lib\mlibwrapper_jai.jar;C:\Users\lusa\Desktop\Git\MSc-Thesis\17-05-2017\neuralturingmachines-master\lib\xstream-distribution-1.4.8-bin.zip;C:\Users\lusa\Desktop\Git\MSc-Thesis\17-05-2017\neuralturingmachines-master\lib\xpp3_min-1.1.4c.jar;C:\Users\lusa\Desktop\Git\MSc-Thesis\17-05-2017\neuralturingmachines-master\lib\anji.jar;C:\Users\lusa\Desktop\Git\MSc-Thesis\17-05-2017\neuralturingmachines-master\lib\junit.jar;C:\Users\lusa\Desktop\Git\MSc-Thesis\17-05-2017\neuralturingmachines-master\lib\commons-math3-3.5.jar;C:\Users\lusa\Desktop\Git\MSc-Thesis\17-05-2017\neuralturingmachines-master\lib\log4j.jar;C:\Users\lusa\Desktop\Git\MSc-Thesis\17-05-2017\neuralturingmachines-master\lib\junit-4.12.jar;C:\Users\lusa\Desktop\Git\MSc-Thesis\17-05-2017\neuralturingmachines-master\lib\hamcrest-core-1.3.jar" dk.itu.lusa.run.Evolver 3-td3g+sequential.properties
+INFO  Properties: simulator.blockpuzzle.static.grid_size == 3
+INFO  Properties: simulator.blockpuzzle.static.block_number == 6
+INFO  Properties: simulator.blockpuzzle.static.max_actions == 6
+INFO  Properties: simulator.blockpuzzle.static.combinations_number == 1
+INFO  Properties: simulator.blockpuzzle.static.short_representation == false
+INFO  Properties: run.name == 3-td3g+sequential
+INFO  Properties: simulator.blockpuzzle.static.max_constraints_per_goal == 6
+INFO  Properties: simulator.blockpuzzle.static.min_constraints_per_goal == 4
+INFO  Properties: simulator.blockpuzzle.static.number_of_goals == 3
+INFO  Properties: simulator.blockpuzzle.static.evolution_mode == sequential
+INFO  Properties: simulator.blockpuzzle.static.max_over_actions == 3
+INFO  Properties: simulator.blockpuzzle.static.print_screenshot == null [false]
+INFO  Properties: tm.static.print_memory_screenshots == null [false]
+INFO  Properties: simulator.blockpuzzle.rl.discount_factor == 0.8
+INFO  Properties: simulator.blockpuzzle.rl.learning_rate == 1
+INFO  Properties: simulator.blockpuzzle.rl.td_learning_enabled == false
+INFO  Properties: simulator.blockpuzzle.game_field == 4,1,3;2,0,6;0,0,5;-
+INFO  Properties: simulator.blockpuzzle.goals == 4b6,4l1,1b5,6b3,1l2,6l5;6l3,3b5,4l6,4b2,5b1;3b5,1l3,4l1,2b6;-
+Goal n°1: 100s:1 0s:936
+Goal n°2: 100s:1 0s:1027
+Goal n°3: 100s:2 0s:1047
+INFO  Properties: simulator.class == dk.itu.lusa.domain.blockpuzzle.BlockPuzzle
+INFO  Properties: random.seed.simulator.fallback == null [0]
+INFO  Properties: random.seed == 0
+INFO  Properties: simulator.blockpuzzle.multiplier_negative_move == 0.95
+INFO  Properties: simulator.blockpuzzle.multiplier_wrong_move == 0.9
+INFO  Properties: simulator.blockpuzzle.repeat_combinations == true
+INFO  Properties: controller.iterations == 1
+INFO  Properties: tm.class == dk.itu.ejuuragr.turing.MinimalTuringMachine
+INFO  Properties: tm.m == 7
+INFO  Properties: tm.n == null [-1]
+INFO  Properties: tm.shift.length == 3
+INFO  Properties: tm.shift.mode == multiple
+INFO  Properties: tm.enabled == true
+INFO  Properties: tm.heads.readwrite == 1
+INFO  Properties: run.reset == false
+INFO  Properties: id.file == ./db/id.xml
+INFO  Properties: survival.rate == 0.2
+INFO  Properties: selector.roulette == false
+INFO  Properties: selector.elitism == true
+INFO  Properties: selector.elitism.min.specie.size == 2
+INFO  Properties: remove.connection.mutation.rate == 0.02
+INFO  Properties: remove.connection.max.weight == 5
+INFO  Properties: remove.connection.strategy == skewed
+INFO  Properties: topology.mutation.classic == true
+INFO  Properties: add.connection.mutation.rate == 0.05
+INFO  Properties: recurrent == disallowed
+INFO  Properties: add.neuron.mutation.rate == 0.005
+INFO  Properties: weight.mutation.rate == 0.6
+INFO  Properties: weight.mutation.std.dev == 1.5
+INFO  Properties: prune.mutation.rate == 1.00
+INFO  Properties: popul.size == 300
+INFO  Properties: initial.topology.activation == sigmoid
+INFO  Properties: initial.topology.activation.input == linear
+INFO  Properties: initial.topology.activation.output == sigmoid
+INFO  Properties: neat.id.file == ./db/neatid.xml
+INFO  Properties: stimulus.size == 83
+INFO  Properties: initial.topology.num.hidden.neurons == 0
+INFO  Properties: response.size == 19
+INFO  Properties: initial.topology.fully.connected == true
+INFO  Properties: initial.topology.connected.percentage == null [-1.0]
+INFO  Properties: weight.min == -10.0
+INFO  Properties: weight.max == 10.0
+INFO  Properties: chrom.compat.excess.coeff == 1.0
+INFO  Properties: chrom.compat.disjoint.coeff == 1.0
+INFO  Properties: chrom.compat.common.coeff == 0.4
+INFO  Properties: speciation.threshold == 0.35
+INFO  Properties: persistence.class == com.anji.persistence.FilePersistence
+INFO  Properties: base.dir == ./db/3-td3g+sequential
+INFO  Properties: num.generations == 100000
+INFO  Properties: fitness.target == 0.999
+INFO  Properties: fitness.threshold == 0.95
+INFO  Properties: persist.all == false
+INFO  Properties: persist.champions == true
+INFO  Properties: persist.last == true
+INFO  Properties: presentation.dir == ./nevt
+INFO  Properties: fitness_function.class == dk.itu.lusa.fitness.FitnessEvaluatorRepeater
+INFO  Properties: ann.type == anji
+INFO  Properties: recurrent.cycles == 1
+INFO  Properties: recurrent == disallowed
+INFO  Properties: simulate.generations.identical == -1
+INFO  Properties: threading == true
+INFO  Properties: thread.pooling == null [false]
+INFO  Properties: simulator.class == dk.itu.lusa.domain.blockpuzzle.BlockPuzzle
+INFO  Properties: random.seed.simulator.fallback == null [0]
+INFO  Properties: random.seed == 0
+INFO  Properties: simulator.blockpuzzle.multiplier_negative_move == 0.95
+INFO  Properties: simulator.blockpuzzle.multiplier_wrong_move == 0.9
+INFO  Properties: simulator.blockpuzzle.repeat_combinations == true
+INFO  Properties: controller.iterations == 1
+INFO  Properties: tm.class == dk.itu.ejuuragr.turing.MinimalTuringMachine
+INFO  Properties: tm.m == 7
+INFO  Properties: tm.n == null [-1]
+INFO  Properties: tm.shift.length == 3
+INFO  Properties: tm.shift.mode == multiple
+INFO  Properties: tm.enabled == true
+INFO  Properties: tm.heads.readwrite == 1
+INFO  random genotype
+INFO  Run: start
+INFO  Generation 0: start
+INFO  connection->neuron id map size == 79
+INFO  neurons->connection id map size == 20700
+INFO  species count: 237
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48189051 score=0.26 size=1679
+INFO  Generation 0: end [10:43:02 - 10:44:19] [76501]
+INFO  Generation 1: start
+INFO  connection->neuron id map size == 80
+INFO  neurons->connection id map size == 21399
+INFO  species count: 71
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48189051 score=0.26 size=1679
+INFO  Generation 1: end [10:44:19 - 10:45:06] [47466]
+INFO  Generation 2: start
+INFO  connection->neuron id map size == 82
+INFO  neurons->connection id map size == 29710
+INFO  species count: 159
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48189051 score=0.26 size=1679
+INFO  Generation 2: end [10:45:06 - 10:46:01] [54627]
+INFO  Generation 3: start
+INFO  connection->neuron id map size == 83
+INFO  neurons->connection id map size == 30600
+INFO  species count: 164
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48189051 score=0.26 size=1679
+INFO  Generation 3: end [10:46:01 - 10:46:54] [52740]
+INFO  Generation 4: start
+INFO  connection->neuron id map size == 91
+INFO  neurons->connection id map size == 29742
+INFO  species count: 186
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48189051 score=0.26 size=1679
+INFO  Generation 4: end [10:46:54 - 10:47:45] [51055]
+INFO  Generation 5: start
+INFO  connection->neuron id map size == 92
+INFO  neurons->connection id map size == 30897
+INFO  species count: 163
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48199957 score=0.31 size=1585
+INFO  Generation 5: end [10:47:45 - 10:48:35] [49979]
+INFO  Generation 6: start
+INFO  connection->neuron id map size == 92
+INFO  neurons->connection id map size == 32248
+INFO  species count: 156
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48199957 score=0.31 size=1585
+INFO  Generation 6: end [10:48:35 - 10:49:21] [46781]
+INFO  Generation 7: start
+INFO  connection->neuron id map size == 94
+INFO  neurons->connection id map size == 33286
+INFO  species count: 151
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48203761 score=0.37 size=1576
+INFO  Generation 7: end [10:49:21 - 10:50:00] [38857]
+INFO  Generation 8: start
+INFO  connection->neuron id map size == 94
+INFO  neurons->connection id map size == 33829
+INFO  species count: 144
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48203761 score=0.37 size=1576
+INFO  Generation 8: end [10:50:00 - 10:50:42] [41901]
+INFO  Generation 9: start
+INFO  connection->neuron id map size == 89
+INFO  neurons->connection id map size == 41099
+INFO  species count: 142
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48203761 score=0.37 size=1576
+INFO  Generation 9: end [10:50:42 - 10:51:24] [41604]
+INFO  Generation 10: start
+INFO  couldn't load NEAT ids from file, starting with new mapping
+[Fatal Error] :7:1: Content is not allowed in trailing section.
+INFO  connection->neuron id map size == 2
+INFO  neurons->connection id map size == 42
+INFO  species count: 124
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48203761 score=0.37 size=1576
+INFO  Generation 10: end [10:51:24 - 10:52:06] [42276]
+INFO  Generation 11: start
+INFO  connection->neuron id map size == 93
+INFO  neurons->connection id map size == 45095
+INFO  species count: 154
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48203761 score=0.37 size=1576
+INFO  Generation 11: end [10:52:06 - 10:52:54] [48296]
+INFO  Generation 12: start
+INFO  connection->neuron id map size == 92
+INFO  neurons->connection id map size == 44616
+INFO  species count: 160
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48210289 score=0.38 size=1558
+INFO  Generation 12: end [10:52:54 - 10:53:38] [43633]
+INFO  Generation 13: start
+INFO  connection->neuron id map size == 95
+INFO  neurons->connection id map size == 46313
+INFO  species count: 137
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48210289 score=0.38 size=1558
+INFO  Generation 13: end [10:53:38 - 10:54:17] [38734]
+INFO  Generation 14: start
+INFO  connection->neuron id map size == 99
+INFO  neurons->connection id map size == 48697
+INFO  species count: 125
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48210289 score=0.38 size=1558
+INFO  Generation 14: end [10:54:17 - 10:54:59] [42135]
+INFO  Generation 15: start
+INFO  connection->neuron id map size == 100
+INFO  neurons->connection id map size == 48956
+INFO  species count: 118
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48210289 score=0.38 size=1558
+INFO  Generation 15: end [10:54:59 - 10:55:41] [42213]
+INFO  Generation 16: start
+INFO  connection->neuron id map size == 104
+INFO  neurons->connection id map size == 49336
+INFO  species count: 122
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48210289 score=0.38 size=1558
+INFO  Generation 16: end [10:55:41 - 10:56:21] [40185]
+INFO  Generation 17: start
+INFO  connection->neuron id map size == 105
+INFO  neurons->connection id map size == 50416
+INFO  species count: 127
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48210289 score=0.38 size=1558
+INFO  Generation 17: end [10:56:21 - 10:57:02] [40388]
+INFO  Generation 18: start
+INFO  connection->neuron id map size == 104
+INFO  neurons->connection id map size == 50168
+INFO  species count: 134
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48218513 score=0.39 size=1520
+INFO  Generation 18: end [10:57:02 - 10:57:43] [41262]
+INFO  Generation 19: start
+INFO  connection->neuron id map size == 106
+INFO  neurons->connection id map size == 51367
+INFO  species count: 131
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48218513 score=0.39 size=1520
+INFO  Generation 19: end [10:57:43 - 10:58:27] [43929]
+INFO  Generation 20: start
+INFO  connection->neuron id map size == 108
+INFO  neurons->connection id map size == 52716
+INFO  species count: 118
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48218513 score=0.39 size=1520
+INFO  Generation 20: end [10:58:27 - 10:59:00] [33291]
+INFO  Generation 21: start
+INFO  connection->neuron id map size == 112
+INFO  neurons->connection id map size == 52202
+INFO  species count: 122
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48222812 score=0.39 size=1547
+INFO  Generation 21: end [10:59:00 - 10:59:42] [41776]
+INFO  Generation 22: start
+INFO  connection->neuron id map size == 112
+INFO  neurons->connection id map size == 52383
+INFO  species count: 109
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48222812 score=0.39 size=1547
+INFO  Generation 22: end [10:59:42 - 11:00:16] [34133]
+INFO  Generation 23: start
+INFO  connection->neuron id map size == 114
+INFO  neurons->connection id map size == 53873
+INFO  species count: 123
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48224259 score=0.44 size=1528
+INFO  Generation 23: end [11:00:16 - 11:00:52] [35677]
+INFO  Generation 24: start
+INFO  connection->neuron id map size == 111
+INFO  neurons->connection id map size == 55165
+INFO  species count: 124
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48224259 score=0.44 size=1528
+INFO  Generation 24: end [11:00:52 - 11:01:28] [36535]
+INFO  Generation 25: start
+[Fatal Error] :5:3753584: XML document structures must start and end within the same entity.
+INFO  couldn't load NEAT ids from file, starting with new mapping
+INFO  connection->neuron id map size == 0
+INFO  neurons->connection id map size == 51
+INFO  species count: 113
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48224259 score=0.44 size=1528
+INFO  Generation 25: end [11:01:28 - 11:02:05] [36972]
+INFO  Generation 26: start
+INFO  connection->neuron id map size == 111
+INFO  neurons->connection id map size == 56523
+INFO  species count: 117
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48224259 score=0.44 size=1528
+INFO  Generation 26: end [11:02:05 - 11:02:56] [50762]
+INFO  Generation 27: start
+INFO  connection->neuron id map size == 117
+INFO  neurons->connection id map size == 57024
+INFO  species count: 118
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48224259 score=0.44 size=1528
+INFO  Generation 27: end [11:02:56 - 11:03:31] [34975]
+INFO  Generation 28: start
+INFO  connection->neuron id map size == 120
+INFO  neurons->connection id map size == 57395
+INFO  species count: 113
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48224259 score=0.44 size=1528
+INFO  Generation 28: end [11:03:31 - 11:04:06] [34757]
+INFO  Generation 29: start
+INFO  couldn't load NEAT ids from file, starting with new mapping
+[Fatal Error] :5:1378291: XML document structures must start and end within the same entity.
+INFO  connection->neuron id map size == 1
+INFO  neurons->connection id map size == 151
+INFO  species count: 109
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48224259 score=0.44 size=1528
+INFO  Generation 29: end [11:04:06 - 11:04:43] [37674]
+INFO  Generation 30: start
+INFO  connection->neuron id map size == 122
+INFO  neurons->connection id map size == 59428
+INFO  species count: 108
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48224259 score=0.44 size=1528
+INFO  Generation 30: end [11:04:43 - 11:05:30] [46473]
+INFO  Generation 31: start
+INFO  connection->neuron id map size == 4
+INFO  neurons->connection id map size == 394
+INFO  species count: 103
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48224259 score=0.44 size=1528
+INFO  Generation 31: end [11:05:30 - 11:06:08] [37986]
+INFO  Generation 32: start
+INFO  connection->neuron id map size == 3
+INFO  neurons->connection id map size == 459
+INFO  species count: 106
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48224259 score=0.44 size=1528
+INFO  Generation 32: end [11:06:08 - 11:06:42] [34132]
+INFO  Generation 33: start
+INFO  connection->neuron id map size == 8
+INFO  neurons->connection id map size == 491
+INFO  species count: 100
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48224259 score=0.44 size=1528
+INFO  Generation 33: end [11:06:42 - 11:07:18] [36442]
+INFO  Generation 34: start
+INFO  connection->neuron id map size == 4
+INFO  neurons->connection id map size == 616
+INFO  species count: 103
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48224259 score=0.44 size=1528
+INFO  Generation 34: end [11:07:18 - 11:07:56] [37346]
+INFO  Generation 35: start
+INFO  connection->neuron id map size == 4
+INFO  neurons->connection id map size == 739
+INFO  species count: 105
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48224259 score=0.44 size=1528
+INFO  Generation 35: end [11:07:56 - 11:08:38] [42402]
+INFO  Generation 36: start
+INFO  connection->neuron id map size == 14
+INFO  neurons->connection id map size == 800
+INFO  species count: 105
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48224259 score=0.44 size=1528
+INFO  Generation 36: end [11:08:38 - 11:09:16] [37385]
+INFO  Generation 37: start
+INFO  connection->neuron id map size == 17
+INFO  neurons->connection id map size == 840
+INFO  species count: 105
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48224259 score=0.44 size=1528
+INFO  Generation 37: end [11:09:16 - 11:09:51] [35037]
+INFO  Generation 38: start
+INFO  connection->neuron id map size == 19
+INFO  neurons->connection id map size == 923
+INFO  species count: 110
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48224259 score=0.44 size=1528
+INFO  Generation 38: end [11:09:51 - 11:10:24] [33868]
+INFO  Generation 39: start
+INFO  connection->neuron id map size == 19
+INFO  neurons->connection id map size == 1002
+INFO  species count: 107
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48224259 score=0.44 size=1528
+INFO  Generation 39: end [11:10:24 - 11:11:04] [39717]
+INFO  Generation 40: start
+INFO  connection->neuron id map size == 20
+INFO  neurons->connection id map size == 1090
+INFO  species count: 114
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48224259 score=0.44 size=1528
+INFO  Generation 40: end [11:11:04 - 11:11:42] [37487]
+INFO  Generation 41: start
+INFO  connection->neuron id map size == 23
+INFO  neurons->connection id map size == 1201
+INFO  species count: 108
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48224259 score=0.44 size=1528
+INFO  Generation 41: end [11:11:42 - 11:12:15] [33774]
+INFO  Generation 42: start
+INFO  connection->neuron id map size == 23
+INFO  neurons->connection id map size == 1362
+INFO  species count: 115
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48224259 score=0.44 size=1528
+INFO  Generation 42: end [11:12:15 - 11:12:51] [36005]
+INFO  Generation 43: start
+INFO  connection->neuron id map size == 27
+INFO  neurons->connection id map size == 1463
+INFO  species count: 109
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48224259 score=0.44 size=1528
+INFO  Generation 43: end [11:12:51 - 11:13:26] [34804]
+INFO  Generation 44: start
+INFO  connection->neuron id map size == 24
+INFO  neurons->connection id map size == 1612
+INFO  species count: 111
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48234021 score=0.44 size=1497
+INFO  Generation 44: end [11:13:26 - 11:14:05] [38485]
+INFO  Generation 45: start
+INFO  connection->neuron id map size == 29
+INFO  neurons->connection id map size == 1676
+INFO  species count: 106
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48234021 score=0.44 size=1497
+INFO  Generation 45: end [11:14:05 - 11:14:43] [38423]
+INFO  Generation 46: start
+INFO  connection->neuron id map size == 32
+INFO  neurons->connection id map size == 1751
+INFO  species count: 106
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48234021 score=0.44 size=1497
+INFO  Generation 46: end [11:14:43 - 11:15:19] [36192]
+INFO  Generation 47: start
+INFO  connection->neuron id map size == 34
+INFO  neurons->connection id map size == 1867
+INFO  species count: 100
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48234021 score=0.44 size=1497
+INFO  Generation 47: end [11:15:19 - 11:15:53] [34132]
+INFO  Generation 48: start
+INFO  connection->neuron id map size == 29
+INFO  neurons->connection id map size == 2011
+INFO  species count: 101
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48234021 score=0.44 size=1497
+INFO  Generation 48: end [11:15:53 - 11:16:25] [31715]
+INFO  Generation 49: start
+INFO  connection->neuron id map size == 28
+INFO  neurons->connection id map size == 2097
+INFO  species count: 111
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48234021 score=0.44 size=1497
+INFO  Generation 49: end [11:16:25 - 11:17:01] [35412]
+INFO  Generation 50: start
+INFO  connection->neuron id map size == 30
+INFO  neurons->connection id map size == 2252
+INFO  species count: 108
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48234021 score=0.44 size=1497
+INFO  Generation 50: end [11:17:01 - 11:17:32] [31731]
+INFO  Generation 51: start
+INFO  connection->neuron id map size == 30
+INFO  neurons->connection id map size == 2260
+INFO  species count: 107
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48234021 score=0.44 size=1497
+INFO  Generation 51: end [11:17:32 - 11:18:18] [45286]
+INFO  Generation 52: start
+INFO  connection->neuron id map size == 36
+INFO  neurons->connection id map size == 2374
+INFO  species count: 105
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48234021 score=0.44 size=1497
+INFO  Generation 52: end [11:18:18 - 11:18:50] [32760]
+INFO  Generation 53: start
+INFO  connection->neuron id map size == 34
+INFO  neurons->connection id map size == 2487
+INFO  species count: 115
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48234021 score=0.44 size=1497
+INFO  Generation 53: end [11:18:50 - 11:19:31] [40295]
+INFO  Generation 54: start
+INFO  connection->neuron id map size == 37
+INFO  neurons->connection id map size == 2559
+INFO  species count: 110
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48234021 score=0.44 size=1497
+INFO  Generation 54: end [11:19:31 - 11:20:04] [33478]
+INFO  Generation 55: start
+INFO  connection->neuron id map size == 37
+INFO  neurons->connection id map size == 2632
+INFO  species count: 110
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48234021 score=0.44 size=1497
+INFO  Generation 55: end [11:20:04 - 11:20:43] [38454]
+INFO  Generation 56: start
+INFO  connection->neuron id map size == 36
+INFO  neurons->connection id map size == 2782
+INFO  species count: 113
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48234021 score=0.44 size=1497
+INFO  Generation 56: end [11:20:43 - 11:21:18] [35599]
+INFO  Generation 57: start
+INFO  connection->neuron id map size == 39
+INFO  neurons->connection id map size == 2877
+INFO  species count: 123
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48234021 score=0.44 size=1497
+INFO  Generation 57: end [11:21:18 - 11:21:52] [34226]
+INFO  Generation 58: start
+INFO  connection->neuron id map size == 39
+INFO  neurons->connection id map size == 2914
+INFO  species count: 129
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48234021 score=0.44 size=1497
+INFO  Generation 58: end [11:21:52 - 11:22:28] [35912]
+INFO  Generation 59: start
+INFO  connection->neuron id map size == 45
+INFO  neurons->connection id map size == 3084
+INFO  species count: 134
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48234021 score=0.44 size=1497
+INFO  Generation 59: end [11:22:28 - 11:23:06] [38001]
+INFO  Generation 60: start
+INFO  connection->neuron id map size == 45
+INFO  neurons->connection id map size == 3200
+INFO  species count: 128
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48234021 score=0.44 size=1497
+INFO  Generation 60: end [11:23:06 - 11:23:44] [37206]
+INFO  Generation 61: start
+INFO  connection->neuron id map size == 51
+INFO  neurons->connection id map size == 3231
+INFO  species count: 131
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48234021 score=0.44 size=1497
+INFO  Generation 61: end [11:23:44 - 11:24:24] [40701]
+INFO  Generation 62: start
+INFO  connection->neuron id map size == 52
+INFO  neurons->connection id map size == 3321
+INFO  species count: 127
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48234021 score=0.44 size=1497
+INFO  Generation 62: end [11:24:24 - 11:24:55] [30716]
+INFO  Generation 63: start
+INFO  connection->neuron id map size == 45
+INFO  neurons->connection id map size == 3277
+INFO  species count: 124
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48240135 score=0.46 size=1488
+INFO  Generation 63: end [11:24:55 - 11:25:31] [36504]
+INFO  Generation 64: start
+INFO  connection->neuron id map size == 49
+INFO  neurons->connection id map size == 3352
+INFO  species count: 125
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48240135 score=0.46 size=1488
+INFO  Generation 64: end [11:25:31 - 11:26:06] [34258]
+INFO  Generation 65: start
+INFO  connection->neuron id map size == 50
+INFO  neurons->connection id map size == 3627
+INFO  species count: 125
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48240135 score=0.46 size=1488
+INFO  Generation 65: end [11:26:06 - 11:26:41] [35053]
+INFO  Generation 66: start
+INFO  connection->neuron id map size == 57
+INFO  neurons->connection id map size == 3843
+INFO  species count: 117
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48240135 score=0.46 size=1488
+INFO  Generation 66: end [11:26:41 - 11:27:14] [33275]
+INFO  Generation 67: start
+INFO  connection->neuron id map size == 51
+INFO  neurons->connection id map size == 3642
+INFO  species count: 113
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48240135 score=0.46 size=1488
+INFO  Generation 67: end [11:27:14 - 11:27:46] [32073]
+INFO  Generation 68: start
+INFO  connection->neuron id map size == 51
+INFO  neurons->connection id map size == 3763
+INFO  species count: 115
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48240135 score=0.46 size=1488
+INFO  Generation 68: end [11:27:46 - 11:28:24] [38314]
+INFO  Generation 69: start
+INFO  connection->neuron id map size == 54
+INFO  neurons->connection id map size == 3746
+INFO  species count: 113
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48240135 score=0.46 size=1488
+INFO  Generation 69: end [11:28:24 - 11:28:59] [35022]
+INFO  Generation 70: start
+INFO  connection->neuron id map size == 5
+INFO  neurons->connection id map size == 429
+INFO  species count: 109
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48240135 score=0.46 size=1488
+INFO  Generation 70: end [11:28:59 - 11:29:35] [36005]
+INFO  Generation 71: start
+INFO  connection->neuron id map size == 3
+INFO  neurons->connection id map size == 529
+INFO  species count: 119
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48240135 score=0.46 size=1488
+INFO  Generation 71: end [11:29:35 - 11:30:15] [39530]
+INFO  Generation 72: start
+INFO  connection->neuron id map size == 57
+INFO  neurons->connection id map size == 4074
+INFO  species count: 116
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48240135 score=0.46 size=1488
+INFO  Generation 72: end [11:30:15 - 11:30:50] [34897]
+INFO  Generation 73: start
+INFO  connection->neuron id map size == 58
+INFO  neurons->connection id map size == 4140
+INFO  species count: 118
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48240135 score=0.46 size=1488
+INFO  Generation 73: end [11:30:50 - 11:31:23] [33462]
+INFO  Generation 74: start
+INFO  connection->neuron id map size == 59
+INFO  neurons->connection id map size == 4287
+INFO  species count: 124
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48240135 score=0.46 size=1488
+INFO  Generation 74: end [11:31:23 - 11:31:59] [35849]
+INFO  Generation 75: start
+INFO  connection->neuron id map size == 59
+INFO  neurons->connection id map size == 4350
+INFO  species count: 124
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48240135 score=0.46 size=1488
+INFO  Generation 75: end [11:31:59 - 11:32:41] [42026]
+INFO  Generation 76: start
+INFO  connection->neuron id map size == 61
+INFO  neurons->connection id map size == 4491
+INFO  species count: 125
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48240135 score=0.46 size=1488
+INFO  Generation 76: end [11:32:41 - 11:33:15] [33478]
+INFO  Generation 77: start
+INFO  connection->neuron id map size == 64
+INFO  neurons->connection id map size == 4634
+INFO  species count: 128
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48240135 score=0.46 size=1488
+INFO  Generation 77: end [11:33:15 - 11:33:48] [32838]
+INFO  Generation 78: start
+INFO  connection->neuron id map size == 64
+INFO  neurons->connection id map size == 4632
+INFO  species count: 128
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48240135 score=0.46 size=1488
+INFO  Generation 78: end [11:33:48 - 11:34:22] [34336]
+INFO  Generation 79: start
+INFO  connection->neuron id map size == 66
+INFO  neurons->connection id map size == 4977
+INFO  species count: 129
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48240135 score=0.46 size=1488
+INFO  Generation 79: end [11:34:22 - 11:34:59] [36831]
+INFO  Generation 80: start
+INFO  connection->neuron id map size == 69
+INFO  neurons->connection id map size == 4907
+INFO  species count: 125
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48240135 score=0.46 size=1488
+INFO  Generation 80: end [11:34:59 - 11:35:33] [34039]
+INFO  Generation 81: start
+INFO  connection->neuron id map size == 69
+INFO  neurons->connection id map size == 4958
+INFO  species count: 126
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48240135 score=0.46 size=1488
+INFO  Generation 81: end [11:35:33 - 11:36:14] [40904]
+INFO  Generation 82: start
+INFO  connection->neuron id map size == 76
+INFO  neurons->connection id map size == 4963
+INFO  species count: 127
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48240135 score=0.46 size=1488
+INFO  Generation 82: end [11:36:14 - 11:36:46] [32838]
+INFO  Generation 83: start
+INFO  connection->neuron id map size == 76
+INFO  neurons->connection id map size == 4935
+INFO  species count: 126
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48240135 score=0.46 size=1488
+INFO  Generation 83: end [11:36:46 - 11:37:31] [44054]
+INFO  Generation 84: start
+INFO  connection->neuron id map size == 75
+INFO  neurons->connection id map size == 5279
+INFO  species count: 127
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48240135 score=0.46 size=1488
+INFO  Generation 84: end [11:37:31 - 11:38:08] [37783]
+INFO  Generation 85: start
+INFO  connection->neuron id map size == 76
+INFO  neurons->connection id map size == 5377
+INFO  species count: 122
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48240135 score=0.46 size=1488
+INFO  Generation 85: end [11:38:08 - 11:38:39] [30607]
+INFO  Generation 86: start
+INFO  connection->neuron id map size == 75
+INFO  neurons->connection id map size == 5514
+INFO  species count: 121
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48240135 score=0.46 size=1488
+INFO  Generation 86: end [11:38:39 - 11:39:11] [31996]
+INFO  Generation 87: start
+INFO  connection->neuron id map size == 77
+INFO  neurons->connection id map size == 5597
+INFO  species count: 121
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48240135 score=0.46 size=1488
+INFO  Generation 87: end [11:39:11 - 11:39:46] [34648]
+INFO  Generation 88: start
+INFO  connection->neuron id map size == 81
+INFO  neurons->connection id map size == 5768
+INFO  species count: 117
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48240135 score=0.46 size=1488
+INFO  Generation 88: end [11:39:46 - 11:40:24] [38578]
+INFO  Generation 89: start
+INFO  connection->neuron id map size == 81
+INFO  neurons->connection id map size == 5796
+INFO  species count: 116
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48240135 score=0.46 size=1488
+INFO  Generation 89: end [11:40:24 - 11:41:18] [53493]
+INFO  Generation 90: start
+INFO  connection->neuron id map size == 82
+INFO  neurons->connection id map size == 6049
+INFO  species count: 117
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48240135 score=0.46 size=1488
+INFO  Generation 90: end [11:41:18 - 11:41:55] [37814]
+INFO  Generation 91: start
+INFO  connection->neuron id map size == 85
+INFO  neurons->connection id map size == 6107
+INFO  species count: 114
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48240135 score=0.46 size=1488
+INFO  Generation 91: end [11:41:55 - 11:42:30] [34086]
+INFO  Generation 92: start
+INFO  connection->neuron id map size == 86
+INFO  neurons->connection id map size == 6165
+INFO  species count: 110
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48240135 score=0.46 size=1488
+INFO  Generation 92: end [11:42:30 - 11:43:02] [32214]
+INFO  Generation 93: start
+INFO  connection->neuron id map size == 86
+INFO  neurons->connection id map size == 6221
+INFO  species count: 110
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48240135 score=0.46 size=1488
+INFO  Generation 93: end [11:43:02 - 11:43:37] [34991]
+INFO  Generation 94: start
+INFO  connection->neuron id map size == 85
+INFO  neurons->connection id map size == 6331
+INFO  species count: 109
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48240135 score=0.46 size=1488
+INFO  Generation 94: end [11:43:37 - 11:44:09] [32354]
+INFO  Generation 95: start
+INFO  connection->neuron id map size == 89
+INFO  neurons->connection id map size == 6459
+INFO  species count: 110
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48240135 score=0.46 size=1488
+INFO  Generation 95: end [11:44:09 - 11:44:42] [33400]
+INFO  Generation 96: start
+INFO  connection->neuron id map size == 93
+INFO  neurons->connection id map size == 6532
+INFO  species count: 105
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48240135 score=0.46 size=1488
+INFO  Generation 96: end [11:44:42 - 11:45:12] [29999]
+INFO  Generation 97: start
+INFO  connection->neuron id map size == 91
+INFO  neurons->connection id map size == 6622
+INFO  species count: 105
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48240135 score=0.46 size=1488
+INFO  Generation 97: end [11:45:12 - 11:45:43] [30732]
+INFO  Generation 98: start
+INFO  connection->neuron id map size == 89
+INFO  neurons->connection id map size == 6637
+INFO  species count: 106
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48240135 score=0.46 size=1488
+INFO  Generation 98: end [11:45:43 - 11:46:15] [31855]
+INFO  Generation 99: start
+INFO  connection->neuron id map size == 96
+INFO  neurons->connection id map size == 6964
+INFO  species count: 105
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48240135 score=0.46 size=1488
+INFO  Generation 99: end [11:46:15 - 11:46:46] [31325]
+INFO  Generation 100: start
+INFO  connection->neuron id map size == 95
+INFO  neurons->connection id map size == 6796
+INFO  species count: 101
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48240135 score=0.46 size=1488
+INFO  Generation 100: end [11:46:46 - 11:47:19] [33056]
+INFO  Generation 101: start
+INFO  connection->neuron id map size == 100
+INFO  neurons->connection id map size == 6908
+INFO  species count: 102
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48240135 score=0.46 size=1488
+INFO  Generation 101: end [11:47:19 - 11:47:57] [37705]
+INFO  Generation 102: start
+INFO  connection->neuron id map size == 100
+INFO  neurons->connection id map size == 7010
+INFO  species count: 102
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48240135 score=0.46 size=1488
+INFO  Generation 102: end [11:47:57 - 11:48:26] [29126]
+INFO  Generation 103: start
+INFO  connection->neuron id map size == 102
+INFO  neurons->connection id map size == 7051
+INFO  species count: 105
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48240135 score=0.46 size=1488
+INFO  Generation 103: end [11:48:26 - 11:49:02] [36160]
+INFO  Generation 104: start
+INFO  connection->neuron id map size == 102
+INFO  neurons->connection id map size == 7137
+INFO  species count: 106
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48240135 score=0.46 size=1488
+INFO  Generation 104: end [11:49:02 - 11:49:35] [32246]
+INFO  Generation 105: start
+INFO  connection->neuron id map size == 103
+INFO  neurons->connection id map size == 7164
+INFO  species count: 111
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48253218 score=0.47 size=1493
+INFO  Generation 105: end [11:49:35 - 11:50:09] [33945]
+INFO  Generation 106: start
+INFO  connection->neuron id map size == 105
+INFO  neurons->connection id map size == 7228
+INFO  species count: 112
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48253218 score=0.47 size=1493
+INFO  Generation 106: end [11:50:09 - 11:50:41] [32230]
+INFO  Generation 107: start
+INFO  connection->neuron id map size == 108
+INFO  neurons->connection id map size == 7290
+INFO  species count: 111
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48253218 score=0.47 size=1493
+INFO  Generation 107: end [11:50:41 - 11:51:18] [36909]
+INFO  Generation 108: start
+INFO  connection->neuron id map size == 111
+INFO  neurons->connection id map size == 7422
+INFO  species count: 111
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48253218 score=0.47 size=1493
+INFO  Generation 108: end [11:51:18 - 11:51:59] [41668]
+INFO  Generation 109: start
+INFO  connection->neuron id map size == 112
+INFO  neurons->connection id map size == 7511
+INFO  species count: 107
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48253218 score=0.47 size=1493
+INFO  Generation 109: end [11:51:59 - 11:52:30] [30186]
+INFO  Generation 110: start
+INFO  connection->neuron id map size == 111
+INFO  neurons->connection id map size == 7536
+INFO  species count: 107
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48253218 score=0.47 size=1493
+INFO  Generation 110: end [11:52:30 - 11:53:01] [31387]
+INFO  Generation 111: start
+INFO  connection->neuron id map size == 116
+INFO  neurons->connection id map size == 7620
+INFO  species count: 103
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48253218 score=0.47 size=1493
+INFO  Generation 111: end [11:53:01 - 11:53:36] [34960]
+INFO  Generation 112: start
+INFO  connection->neuron id map size == 119
+INFO  neurons->connection id map size == 7766
+INFO  species count: 108
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48253218 score=0.47 size=1493
+INFO  Generation 112: end [11:53:36 - 11:54:10] [34382]
+INFO  Generation 113: start
+INFO  connection->neuron id map size == 123
+INFO  neurons->connection id map size == 7836
+INFO  species count: 108
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48253218 score=0.47 size=1493
+INFO  Generation 113: end [11:54:10 - 11:54:52] [42011]
+INFO  Generation 114: start
+INFO  connection->neuron id map size == 124
+INFO  neurons->connection id map size == 7881
+INFO  species count: 114
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48253218 score=0.47 size=1493
+INFO  Generation 114: end [11:54:52 - 11:55:29] [36176]
+INFO  Generation 115: start
+INFO  connection->neuron id map size == 122
+INFO  neurons->connection id map size == 8139
+INFO  species count: 118
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48253218 score=0.47 size=1493
+INFO  Generation 115: end [11:55:29 - 11:56:03] [34866]
+INFO  Generation 116: start
+INFO  connection->neuron id map size == 125
+INFO  neurons->connection id map size == 8106
+INFO  species count: 119
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48253218 score=0.47 size=1493
+INFO  Generation 116: end [11:56:03 - 11:56:38] [34726]
+INFO  Generation 117: start
+INFO  connection->neuron id map size == 129
+INFO  neurons->connection id map size == 8200
+INFO  species count: 120
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48253218 score=0.47 size=1493
+INFO  Generation 117: end [11:56:38 - 11:57:10] [31980]
+INFO  Generation 118: start
+INFO  connection->neuron id map size == 125
+INFO  neurons->connection id map size == 8232
+INFO  species count: 122
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48253218 score=0.47 size=1493
+INFO  Generation 118: end [11:57:10 - 11:57:39] [28985]
+INFO  Generation 119: start
+INFO  connection->neuron id map size == 132
+INFO  neurons->connection id map size == 8256
+INFO  species count: 119
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48253218 score=0.47 size=1493
+INFO  Generation 119: end [11:57:39 - 11:58:11] [31652]
+INFO  Generation 120: start
+INFO  connection->neuron id map size == 135
+INFO  neurons->connection id map size == 8397
+INFO  species count: 114
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48258016 score=0.52 size=1466
+INFO  Generation 120: end [11:58:11 - 11:58:46] [35256]
+INFO  Generation 121: start
+INFO  connection->neuron id map size == 134
+INFO  neurons->connection id map size == 8559
+INFO  species count: 122
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48258016 score=0.52 size=1466
+INFO  Generation 121: end [11:58:46 - 11:59:23] [36535]
+INFO  Generation 122: start
+INFO  connection->neuron id map size == 137
+INFO  neurons->connection id map size == 8695
+INFO  species count: 115
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48258016 score=0.52 size=1466
+INFO  Generation 122: end [11:59:23 - 11:59:56] [33400]
+INFO  Generation 123: start
+INFO  connection->neuron id map size == 140
+INFO  neurons->connection id map size == 8709
+INFO  species count: 120
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48258016 score=0.52 size=1466
+INFO  Generation 123: end [11:59:56 - 12:00:27] [30794]
+INFO  Generation 124: start
+INFO  connection->neuron id map size == 142
+INFO  neurons->connection id map size == 8820
+INFO  species count: 121
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48258016 score=0.52 size=1466
+INFO  Generation 124: end [12:00:27 - 12:01:15] [48470]
+INFO  Generation 125: start
+INFO  connection->neuron id map size == 142
+INFO  neurons->connection id map size == 8906
+INFO  species count: 116
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48258016 score=0.52 size=1466
+INFO  Generation 125: end [12:01:15 - 12:01:50] [34741]
+INFO  Generation 126: start
+INFO  connection->neuron id map size == 142
+INFO  neurons->connection id map size == 8934
+INFO  species count: 111
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48258016 score=0.52 size=1466
+INFO  Generation 126: end [12:01:50 - 12:02:26] [35615]
+INFO  Generation 127: start
+INFO  connection->neuron id map size == 145
+INFO  neurons->connection id map size == 9063
+INFO  species count: 107
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48258016 score=0.52 size=1466
+INFO  Generation 127: end [12:02:26 - 12:03:00] [34117]
+INFO  Generation 128: start
+[Fatal Error] :7:1: Content is not allowed in trailing section.
+INFO  couldn't load NEAT ids from file, starting with new mapping
+INFO  connection->neuron id map size == 3
+INFO  neurons->connection id map size == 83
+INFO  species count: 110
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48258016 score=0.52 size=1466
+INFO  Generation 128: end [12:03:00 - 12:03:31] [31543]
+INFO  Generation 129: start
+INFO  connection->neuron id map size == 148
+INFO  neurons->connection id map size == 9193
+INFO  species count: 108
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48258016 score=0.52 size=1466
+INFO  Generation 129: end [12:03:31 - 12:04:00] [28704]
+INFO  Generation 130: start
+INFO  connection->neuron id map size == 148
+INFO  neurons->connection id map size == 9329
+INFO  species count: 111
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48258016 score=0.52 size=1466
+INFO  Generation 130: end [12:04:00 - 12:04:33] [32807]
+INFO  Generation 131: start
+INFO  connection->neuron id map size == 149
+INFO  neurons->connection id map size == 9357
+INFO  species count: 115
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48258016 score=0.52 size=1466
+INFO  Generation 131: end [12:04:33 - 12:05:08] [34757]
+INFO  Generation 132: start
+INFO  connection->neuron id map size == 151
+INFO  neurons->connection id map size == 9384
+INFO  species count: 110
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48258016 score=0.52 size=1466
+INFO  Generation 132: end [12:05:08 - 12:05:39] [31044]
+INFO  Generation 133: start
+INFO  connection->neuron id map size == 153
+INFO  neurons->connection id map size == 9477
+INFO  species count: 108
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48258016 score=0.52 size=1466
+INFO  Generation 133: end [12:05:39 - 12:06:10] [31356]
+INFO  Generation 134: start
+INFO  connection->neuron id map size == 154
+INFO  neurons->connection id map size == 9491
+INFO  species count: 109
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48258016 score=0.52 size=1466
+INFO  Generation 134: end [12:06:10 - 12:06:42] [31855]
+INFO  Generation 135: start
+INFO  connection->neuron id map size == 155
+INFO  neurons->connection id map size == 9816
+INFO  species count: 109
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48258016 score=0.52 size=1466
+INFO  Generation 135: end [12:06:42 - 12:07:14] [32183]
+INFO  Generation 136: start
+INFO  connection->neuron id map size == 153
+INFO  neurons->connection id map size == 9827
+INFO  species count: 108
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48258016 score=0.52 size=1466
+INFO  Generation 136: end [12:07:14 - 12:07:44] [29827]
+INFO  Generation 137: start
+INFO  connection->neuron id map size == 153
+INFO  neurons->connection id map size == 9982
+INFO  species count: 113
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48258016 score=0.52 size=1466
+INFO  Generation 137: end [12:07:44 - 12:08:19] [35381]
+INFO  Generation 138: start
+INFO  connection->neuron id map size == 154
+INFO  neurons->connection id map size == 9966
+INFO  species count: 112
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48258016 score=0.52 size=1466
+INFO  Generation 138: end [12:08:19 - 12:08:51] [31465]
+INFO  Generation 139: start
+INFO  connection->neuron id map size == 162
+INFO  neurons->connection id map size == 10025
+INFO  species count: 115
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48258016 score=0.52 size=1466
+INFO  Generation 139: end [12:08:51 - 12:09:28] [37097]
+INFO  Generation 140: start
+INFO  connection->neuron id map size == 163
+INFO  neurons->connection id map size == 10115
+INFO  species count: 111
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48258016 score=0.52 size=1466
+INFO  Generation 140: end [12:09:28 - 12:10:00] [32089]
+INFO  Generation 141: start
+INFO  connection->neuron id map size == 165
+INFO  neurons->connection id map size == 10198
+INFO  species count: 108
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48258016 score=0.52 size=1466
+INFO  Generation 141: end [12:10:00 - 12:10:28] [28595]
+INFO  Generation 142: start
+INFO  connection->neuron id map size == 158
+INFO  neurons->connection id map size == 10333
+INFO  species count: 112
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48258016 score=0.52 size=1466
+INFO  Generation 142: end [12:10:28 - 12:11:04] [36036]
+INFO  Generation 143: start
+INFO  connection->neuron id map size == 165
+INFO  neurons->connection id map size == 10223
+INFO  species count: 117
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48258016 score=0.52 size=1466
+INFO  Generation 143: end [12:11:04 - 12:11:37] [32900]
+INFO  Generation 144: start
+INFO  connection->neuron id map size == 172
+INFO  neurons->connection id map size == 10382
+INFO  species count: 112
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48258016 score=0.52 size=1466
+INFO  Generation 144: end [12:11:37 - 12:12:06] [28876]
+INFO  Generation 145: start
+INFO  connection->neuron id map size == 172
+INFO  neurons->connection id map size == 10514
+INFO  species count: 115
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48258016 score=0.52 size=1466
+INFO  Generation 145: end [12:12:06 - 12:12:44] [38017]
+INFO  Generation 146: start
+INFO  connection->neuron id map size == 165
+INFO  neurons->connection id map size == 10669
+INFO  species count: 109
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48258016 score=0.52 size=1466
+INFO  Generation 146: end [12:12:44 - 12:13:16] [31886]
+INFO  Generation 147: start
+INFO  connection->neuron id map size == 164
+INFO  neurons->connection id map size == 10795
+INFO  species count: 112
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48258016 score=0.52 size=1466
+INFO  Generation 147: end [12:13:16 - 12:13:47] [30529]
+INFO  Generation 148: start
+INFO  connection->neuron id map size == 163
+INFO  neurons->connection id map size == 10871
+INFO  species count: 110
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48258016 score=0.52 size=1466
+INFO  Generation 148: end [12:13:47 - 12:14:17] [30701]
+INFO  Generation 149: start
+INFO  connection->neuron id map size == 165
+INFO  neurons->connection id map size == 10985
+INFO  species count: 110
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48258016 score=0.52 size=1466
+INFO  Generation 149: end [12:14:17 - 12:14:52] [34929]
+INFO  Generation 150: start
+INFO  connection->neuron id map size == 170
+INFO  neurons->connection id map size == 11135
+INFO  species count: 112
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48258016 score=0.52 size=1466
+INFO  Generation 150: end [12:14:52 - 12:15:24] [31496]
+INFO  Generation 151: start
+INFO  connection->neuron id map size == 168
+INFO  neurons->connection id map size == 11134
+INFO  species count: 115
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48258016 score=0.52 size=1466
+INFO  Generation 151: end [12:15:24 - 12:15:57] [33509]
+INFO  Generation 152: start
+INFO  connection->neuron id map size == 169
+INFO  neurons->connection id map size == 11173
+INFO  species count: 114
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48258016 score=0.52 size=1466
+INFO  Generation 152: end [12:15:57 - 12:16:31] [33758]
+INFO  Generation 153: start
+INFO  connection->neuron id map size == 168
+INFO  neurons->connection id map size == 11302
+INFO  species count: 115
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48258016 score=0.52 size=1466
+INFO  Generation 153: end [12:16:31 - 12:17:05] [34149]
+INFO  Generation 154: start
+INFO  connection->neuron id map size == 3
+INFO  neurons->connection id map size == 354
+INFO  species count: 113
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48258016 score=0.52 size=1466
+INFO  Generation 154: end [12:17:05 - 12:17:37] [32136]
+INFO  Generation 155: start
+INFO  connection->neuron id map size == 7
+INFO  neurons->connection id map size == 347
+INFO  species count: 111
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48258016 score=0.52 size=1466
+INFO  Generation 155: end [12:17:37 - 12:18:09] [32042]
+INFO  Generation 156: start
+INFO  connection->neuron id map size == 7
+INFO  neurons->connection id map size == 504
+INFO  species count: 110
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48258016 score=0.52 size=1466
+INFO  Generation 156: end [12:18:09 - 12:18:38] [28626]
+INFO  Generation 157: start
+INFO  connection->neuron id map size == 8
+INFO  neurons->connection id map size == 468
+INFO  species count: 112
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48258016 score=0.52 size=1466
+INFO  Generation 157: end [12:18:38 - 12:19:07] [29390]
+INFO  Generation 158: start
+INFO  connection->neuron id map size == 180
+INFO  neurons->connection id map size == 11802
+INFO  species count: 111
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48258016 score=0.52 size=1466
+INFO  Generation 158: end [12:19:07 - 12:19:37] [29188]
+INFO  Generation 159: start
+INFO  connection->neuron id map size == 182
+INFO  neurons->connection id map size == 11947
+INFO  species count: 110
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48258016 score=0.52 size=1466
+INFO  Generation 159: end [12:19:37 - 12:20:03] [26458]
+INFO  Generation 160: start
+INFO  connection->neuron id map size == 183
+INFO  neurons->connection id map size == 11947
+INFO  species count: 107
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48258016 score=0.52 size=1466
+INFO  Generation 160: end [12:20:03 - 12:20:30] [27362]
+INFO  Generation 161: start
+INFO  connection->neuron id map size == 185
+INFO  neurons->connection id map size == 11956
+INFO  species count: 109
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48258016 score=0.52 size=1466
+INFO  Generation 161: end [12:20:30 - 12:20:59] [28330]
+INFO  Generation 162: start
+INFO  connection->neuron id map size == 187
+INFO  neurons->connection id map size == 12048
+INFO  species count: 106
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48258016 score=0.52 size=1466
+INFO  Generation 162: end [12:20:59 - 12:21:25] [26161]
+INFO  Generation 163: start
+INFO  connection->neuron id map size == 187
+INFO  neurons->connection id map size == 12091
+INFO  species count: 104
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48258016 score=0.52 size=1466
+INFO  Generation 163: end [12:21:25 - 12:21:51] [26457]
+INFO  Generation 164: start
+INFO  connection->neuron id map size == 187
+INFO  neurons->connection id map size == 12123
+INFO  species count: 108
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48258016 score=0.52 size=1466
+INFO  Generation 164: end [12:21:51 - 12:22:17] [26021]
+INFO  Generation 165: start
+INFO  connection->neuron id map size == 188
+INFO  neurons->connection id map size == 12185
+INFO  species count: 108
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48258016 score=0.52 size=1466
+INFO  Generation 165: end [12:22:17 - 12:22:44] [26427]
+INFO  Generation 166: start
+INFO  connection->neuron id map size == 189
+INFO  neurons->connection id map size == 12266
+INFO  species count: 109
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48258016 score=0.52 size=1466
+INFO  Generation 166: end [12:22:44 - 12:23:11] [26972]
+INFO  Generation 167: start
+INFO  connection->neuron id map size == 194
+INFO  neurons->connection id map size == 12525
+INFO  species count: 109
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48258016 score=0.52 size=1466
+INFO  Generation 167: end [12:23:11 - 12:23:39] [28517]
+INFO  Generation 168: start
+INFO  connection->neuron id map size == 194
+INFO  neurons->connection id map size == 12567
+INFO  species count: 105
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48258016 score=0.52 size=1466
+INFO  Generation 168: end [12:23:39 - 12:24:06] [26317]
+INFO  Generation 169: start
+INFO  connection->neuron id map size == 196
+INFO  neurons->connection id map size == 12654
+INFO  species count: 107
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48258016 score=0.52 size=1466
+INFO  Generation 169: end [12:24:06 - 12:24:33] [27113]
+INFO  Generation 170: start
+INFO  connection->neuron id map size == 195
+INFO  neurons->connection id map size == 12713
+INFO  species count: 104
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48258016 score=0.52 size=1466
+INFO  Generation 170: end [12:24:33 - 12:25:00] [26847]
+INFO  Generation 171: start
+INFO  connection->neuron id map size == 197
+INFO  neurons->connection id map size == 12771
+INFO  species count: 105
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48258016 score=0.52 size=1466
+INFO  Generation 171: end [12:25:00 - 12:25:26] [25959]
+INFO  Generation 172: start
+INFO  connection->neuron id map size == 200
+INFO  neurons->connection id map size == 12820
+INFO  species count: 109
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48258016 score=0.52 size=1466
+INFO  Generation 172: end [12:25:26 - 12:25:54] [28314]
+INFO  Generation 173: start
+INFO  connection->neuron id map size == 202
+INFO  neurons->connection id map size == 12890
+INFO  species count: 108
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48258016 score=0.52 size=1466
+INFO  Generation 173: end [12:25:54 - 12:26:20] [26036]
+INFO  Generation 174: start
+INFO  connection->neuron id map size == 203
+INFO  neurons->connection id map size == 13116
+INFO  species count: 114
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48258016 score=0.52 size=1466
+INFO  Generation 174: end [12:26:20 - 12:26:50] [30186]
+INFO  Generation 175: start
+INFO  connection->neuron id map size == 205
+INFO  neurons->connection id map size == 13171
+INFO  species count: 113
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48258016 score=0.52 size=1466
+INFO  Generation 175: end [12:26:50 - 12:27:19] [29063]
+INFO  Generation 176: start
+INFO  connection->neuron id map size == 206
+INFO  neurons->connection id map size == 13262
+INFO  species count: 108
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48258016 score=0.52 size=1466
+INFO  Generation 176: end [12:27:19 - 12:27:46] [27066]
+INFO  Generation 177: start
+INFO  connection->neuron id map size == 206
+INFO  neurons->connection id map size == 13300
+INFO  species count: 113
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48258016 score=0.52 size=1466
+INFO  Generation 177: end [12:27:46 - 12:28:13] [26754]
+INFO  Generation 178: start
+INFO  connection->neuron id map size == 206
+INFO  neurons->connection id map size == 13347
+INFO  species count: 118
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48258016 score=0.52 size=1466
+INFO  Generation 178: end [12:28:13 - 12:28:40] [27362]
+INFO  Generation 179: start
+INFO  connection->neuron id map size == 209
+INFO  neurons->connection id map size == 13387
+INFO  species count: 118
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48258016 score=0.52 size=1466
+INFO  Generation 179: end [12:28:40 - 12:29:10] [29796]
+INFO  Generation 180: start
+INFO  connection->neuron id map size == 211
+INFO  neurons->connection id map size == 13466
+INFO  species count: 115
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48258016 score=0.52 size=1466
+INFO  Generation 180: end [12:29:10 - 12:29:37] [26707]
+INFO  Generation 181: start
+INFO  connection->neuron id map size == 211
+INFO  neurons->connection id map size == 13521
+INFO  species count: 118
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48258016 score=0.52 size=1466
+INFO  Generation 181: end [12:29:37 - 12:30:04] [27066]
+INFO  Generation 182: start
+INFO  connection->neuron id map size == 211
+INFO  neurons->connection id map size == 13573
+INFO  species count: 117
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48258016 score=0.52 size=1466
+INFO  Generation 182: end [12:30:04 - 12:30:34] [29827]
+INFO  Generation 183: start
+INFO  connection->neuron id map size == 212
+INFO  neurons->connection id map size == 13619
+INFO  species count: 116
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48258016 score=0.52 size=1466
+INFO  Generation 183: end [12:30:34 - 12:31:01] [27472]
+INFO  Generation 184: start
+INFO  connection->neuron id map size == 220
+INFO  neurons->connection id map size == 13863
+INFO  species count: 117
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48258016 score=0.52 size=1466
+INFO  Generation 184: end [12:31:01 - 12:31:29] [27394]
+INFO  Generation 185: start
+INFO  connection->neuron id map size == 218
+INFO  neurons->connection id map size == 13837
+INFO  species count: 123
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48258016 score=0.52 size=1466
+INFO  Generation 185: end [12:31:29 - 12:31:57] [28407]
+INFO  Generation 186: start
+INFO  connection->neuron id map size == 222
+INFO  neurons->connection id map size == 13855
+INFO  species count: 118
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48258016 score=0.52 size=1466
+INFO  Generation 186: end [12:31:57 - 12:32:26] [28907]
+INFO  Generation 187: start
+INFO  connection->neuron id map size == 221
+INFO  neurons->connection id map size == 13994
+INFO  species count: 119
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48258016 score=0.52 size=1466
+INFO  Generation 187: end [12:32:26 - 12:32:54] [28127]
+INFO  Generation 188: start
+INFO  connection->neuron id map size == 219
+INFO  neurons->connection id map size == 13999
+INFO  species count: 111
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48258016 score=0.52 size=1466
+INFO  Generation 188: end [12:32:54 - 12:33:22] [28142]
+INFO  Generation 189: start
+[Fatal Error] :5:652202: XML document structures must start and end within the same entity.
+INFO  couldn't load NEAT ids from file, starting with new mapping
+INFO  connection->neuron id map size == 1
+INFO  neurons->connection id map size == 103
+INFO  species count: 113
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48258016 score=0.52 size=1466
+INFO  Generation 189: end [12:33:22 - 12:33:50] [28314]
+INFO  Generation 190: start
+INFO  connection->neuron id map size == 3
+INFO  neurons->connection id map size == 170
+INFO  species count: 109
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48258016 score=0.52 size=1466
+INFO  Generation 190: end [12:33:50 - 12:34:19] [28065]
+INFO  Generation 191: start
+INFO  connection->neuron id map size == 5
+INFO  neurons->connection id map size == 238
+INFO  species count: 107
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48258016 score=0.52 size=1466
+INFO  Generation 191: end [12:34:19 - 12:34:46] [27534]
+INFO  Generation 192: start
+INFO  connection->neuron id map size == 7
+INFO  neurons->connection id map size == 299
+INFO  species count: 107
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48258016 score=0.52 size=1466
+INFO  Generation 192: end [12:34:46 - 12:35:12] [26083]
+INFO  Generation 193: start
+INFO  connection->neuron id map size == 7
+INFO  neurons->connection id map size == 367
+INFO  species count: 108
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48258016 score=0.52 size=1466
+INFO  Generation 193: end [12:35:12 - 12:35:39] [26941]
+INFO  Generation 194: start
+INFO  connection->neuron id map size == 233
+INFO  neurons->connection id map size == 14789
+INFO  species count: 108
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48258016 score=0.52 size=1466
+INFO  Generation 194: end [12:35:39 - 12:36:07] [27503]
+INFO  Generation 195: start
+INFO  connection->neuron id map size == 233
+INFO  neurons->connection id map size == 14825
+INFO  species count: 110
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48258016 score=0.52 size=1466
+INFO  Generation 195: end [12:36:07 - 12:36:34] [27721]
+INFO  Generation 196: start
+INFO  connection->neuron id map size == 235
+INFO  neurons->connection id map size == 14878
+INFO  species count: 108
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48258016 score=0.52 size=1466
+INFO  Generation 196: end [12:36:34 - 12:37:00] [26099]
+INFO  Generation 197: start
+INFO  connection->neuron id map size == 16
+INFO  neurons->connection id map size == 682
+INFO  species count: 106
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48258016 score=0.52 size=1466
+INFO  Generation 197: end [12:37:00 - 12:37:28] [27440]
+INFO  Generation 198: start
+INFO  connection->neuron id map size == 19
+INFO  neurons->connection id map size == 874
+INFO  species count: 103
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48258016 score=0.52 size=1466
+INFO  Generation 198: end [12:37:28 - 12:37:55] [27628]
+INFO  Generation 199: start
+INFO  connection->neuron id map size == 241
+INFO  neurons->connection id map size == 15115
+INFO  species count: 100
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48258016 score=0.52 size=1466
+INFO  Generation 199: end [12:37:55 - 12:38:24] [28049]
+INFO  Generation 200: start
+INFO  connection->neuron id map size == 246
+INFO  neurons->connection id map size == 15187
+INFO  species count: 102
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48258016 score=0.52 size=1466
+INFO  Generation 200: end [12:38:24 - 12:38:50] [26566]
+INFO  Generation 201: start
+INFO  connection->neuron id map size == 241
+INFO  neurons->connection id map size == 15537
+INFO  species count: 100
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48258016 score=0.52 size=1466
+INFO  Generation 201: end [12:38:50 - 12:39:17] [26848]
+INFO  Generation 202: start
+INFO  connection->neuron id map size == 243
+INFO  neurons->connection id map size == 15607
+INFO  species count: 99
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48258016 score=0.52 size=1466
+INFO  Generation 202: end [12:39:17 - 12:39:44] [26863]
+INFO  Generation 203: start
+INFO  connection->neuron id map size == 246
+INFO  neurons->connection id map size == 15674
+INFO  species count: 100
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48258016 score=0.52 size=1466
+INFO  Generation 203: end [12:39:44 - 12:40:10] [25725]
+INFO  Generation 204: start
+INFO  connection->neuron id map size == 248
+INFO  neurons->connection id map size == 15719
+INFO  species count: 99
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48258016 score=0.52 size=1466
+INFO  Generation 204: end [12:40:10 - 12:40:35] [25428]
+INFO  Generation 205: start
+INFO  connection->neuron id map size == 251
+INFO  neurons->connection id map size == 15485
+INFO  species count: 99
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48258016 score=0.52 size=1466
+INFO  Generation 205: end [12:40:35 - 12:41:01] [26442]
+INFO  Generation 206: start
+INFO  connection->neuron id map size == 253
+INFO  neurons->connection id map size == 15591
+INFO  species count: 100
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48258016 score=0.52 size=1466
+INFO  Generation 206: end [12:41:01 - 12:41:28] [26332]
+INFO  Generation 207: start
+INFO  connection->neuron id map size == 254
+INFO  neurons->connection id map size == 15627
+INFO  species count: 102
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48258016 score=0.52 size=1466
+INFO  Generation 207: end [12:41:28 - 12:41:54] [26754]
+INFO  Generation 208: start
+INFO  connection->neuron id map size == 256
+INFO  neurons->connection id map size == 15804
+INFO  species count: 101
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48258016 score=0.52 size=1466
+INFO  Generation 208: end [12:41:54 - 12:42:22] [27612]
+INFO  Generation 209: start
+INFO  connection->neuron id map size == 257
+INFO  neurons->connection id map size == 15908
+INFO  species count: 98
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48258016 score=0.52 size=1466
+INFO  Generation 209: end [12:42:22 - 12:42:49] [27394]
+INFO  Generation 210: start
+INFO  connection->neuron id map size == 257
+INFO  neurons->connection id map size == 15984
+INFO  species count: 98
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48258016 score=0.52 size=1466
+INFO  Generation 210: end [12:42:49 - 12:43:16] [26052]
+INFO  Generation 211: start
+INFO  connection->neuron id map size == 259
+INFO  neurons->connection id map size == 16012
+INFO  species count: 97
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48258016 score=0.52 size=1466
+INFO  Generation 211: end [12:43:16 - 12:43:42] [26192]
+INFO  Generation 212: start
+INFO  connection->neuron id map size == 263
+INFO  neurons->connection id map size == 16081
+INFO  species count: 98
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48258016 score=0.52 size=1466
+INFO  Generation 212: end [12:43:42 - 12:44:08] [25787]
+INFO  Generation 213: start
+INFO  connection->neuron id map size == 261
+INFO  neurons->connection id map size == 16286
+INFO  species count: 96
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48258016 score=0.52 size=1466
+INFO  Generation 213: end [12:44:08 - 12:44:35] [27238]
+INFO  Generation 214: start
+INFO  connection->neuron id map size == 262
+INFO  neurons->connection id map size == 16313
+INFO  species count: 96
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48258016 score=0.52 size=1466
+INFO  Generation 214: end [12:44:35 - 12:45:00] [25381]
+INFO  Generation 215: start
+INFO  connection->neuron id map size == 262
+INFO  neurons->connection id map size == 16497
+INFO  species count: 96
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48258016 score=0.52 size=1466
+INFO  Generation 215: end [12:45:00 - 12:45:27] [26442]
+INFO  Generation 216: start
+INFO  connection->neuron id map size == 267
+INFO  neurons->connection id map size == 16350
+INFO  species count: 97
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48258016 score=0.52 size=1466
+INFO  Generation 216: end [12:45:27 - 12:45:54] [27487]
+INFO  Generation 217: start
+INFO  connection->neuron id map size == 268
+INFO  neurons->connection id map size == 16412
+INFO  species count: 93
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48258016 score=0.52 size=1466
+INFO  Generation 217: end [12:45:54 - 12:46:19] [24695]
+INFO  Generation 218: start
+INFO  connection->neuron id map size == 269
+INFO  neurons->connection id map size == 16456
+INFO  species count: 95
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48258016 score=0.52 size=1466
+INFO  Generation 218: end [12:46:19 - 12:46:45] [26707]
+INFO  Generation 219: start
+INFO  connection->neuron id map size == 270
+INFO  neurons->connection id map size == 16581
+INFO  species count: 88
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48258016 score=0.52 size=1466
+INFO  Generation 219: end [12:46:45 - 12:47:11] [25225]
+INFO  Generation 220: start
+INFO  connection->neuron id map size == 270
+INFO  neurons->connection id map size == 16631
+INFO  species count: 93
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48258016 score=0.52 size=1466
+INFO  Generation 220: end [12:47:11 - 12:47:38] [27332]
+INFO  Generation 221: start
+INFO  connection->neuron id map size == 277
+INFO  neurons->connection id map size == 16716
+INFO  species count: 93
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48258016 score=0.52 size=1466
+INFO  Generation 221: end [12:47:38 - 12:48:05] [27268]
+INFO  Generation 222: start
+INFO  connection->neuron id map size == 279
+INFO  neurons->connection id map size == 16863
+INFO  species count: 94
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48258016 score=0.52 size=1466
+INFO  Generation 222: end [12:48:05 - 12:48:31] [25928]
+INFO  Generation 223: start
+INFO  connection->neuron id map size == 279
+INFO  neurons->connection id map size == 16932
+INFO  species count: 98
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48258016 score=0.52 size=1466
+INFO  Generation 223: end [12:48:31 - 12:48:57] [25864]
+INFO  Generation 224: start
+INFO  connection->neuron id map size == 280
+INFO  neurons->connection id map size == 16980
+INFO  species count: 103
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48258016 score=0.52 size=1466
+INFO  Generation 224: end [12:48:57 - 12:49:24] [26598]
+INFO  Generation 225: start
+INFO  connection->neuron id map size == 284
+INFO  neurons->connection id map size == 17081
+INFO  species count: 97
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48258016 score=0.52 size=1466
+INFO  Generation 225: end [12:49:24 - 12:49:50] [26411]
+INFO  Generation 226: start
+INFO  connection->neuron id map size == 277
+INFO  neurons->connection id map size == 17016
+INFO  species count: 98
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48258016 score=0.52 size=1466
+INFO  Generation 226: end [12:49:50 - 12:50:16] [25584]
+INFO  Generation 227: start
+INFO  connection->neuron id map size == 279
+INFO  neurons->connection id map size == 17083
+INFO  species count: 99
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48258016 score=0.52 size=1466
+INFO  Generation 227: end [12:50:16 - 12:50:41] [25303]
+INFO  Generation 228: start
+INFO  connection->neuron id map size == 279
+INFO  neurons->connection id map size == 17127
+INFO  species count: 97
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48258016 score=0.52 size=1466
+INFO  Generation 228: end [12:50:41 - 12:51:07] [25709]
+INFO  Generation 229: start
+INFO  connection->neuron id map size == 280
+INFO  neurons->connection id map size == 17193
+INFO  species count: 97
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48258016 score=0.52 size=1466
+INFO  Generation 229: end [12:51:07 - 12:51:33] [26224]
+INFO  Generation 230: start
+INFO  connection->neuron id map size == 283
+INFO  neurons->connection id map size == 17440
+INFO  species count: 97
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48258016 score=0.52 size=1466
+INFO  Generation 230: end [12:51:33 - 12:51:58] [25272]
+INFO  Generation 231: start
+INFO  connection->neuron id map size == 283
+INFO  neurons->connection id map size == 17431
+INFO  species count: 97
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48258016 score=0.52 size=1466
+INFO  Generation 231: end [12:51:58 - 12:52:24] [25958]
+INFO  Generation 232: start
+INFO  connection->neuron id map size == 284
+INFO  neurons->connection id map size == 17498
+INFO  species count: 97
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48258016 score=0.52 size=1466
+INFO  Generation 232: end [12:52:24 - 12:52:49] [25335]
+INFO  Generation 233: start
+INFO  connection->neuron id map size == 285
+INFO  neurons->connection id map size == 17552
+INFO  species count: 97
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48258016 score=0.52 size=1466
+INFO  Generation 233: end [12:52:49 - 12:53:15] [25209]
+INFO  Generation 234: start
+INFO  connection->neuron id map size == 290
+INFO  neurons->connection id map size == 17639
+INFO  species count: 94
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48258016 score=0.52 size=1466
+INFO  Generation 234: end [12:53:15 - 12:53:42] [26926]
+INFO  Generation 235: start
+INFO  connection->neuron id map size == 293
+INFO  neurons->connection id map size == 17693
+INFO  species count: 98
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48258016 score=0.52 size=1466
+INFO  Generation 235: end [12:53:42 - 12:54:10] [28361]
+INFO  Generation 236: start
+INFO  connection->neuron id map size == 294
+INFO  neurons->connection id map size == 17745
+INFO  species count: 98
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48258016 score=0.52 size=1466
+INFO  Generation 236: end [12:54:10 - 12:54:36] [25896]
+INFO  Generation 237: start
+INFO  connection->neuron id map size == 297
+INFO  neurons->connection id map size == 17826
+INFO  species count: 98
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48258016 score=0.52 size=1466
+INFO  Generation 237: end [12:54:36 - 12:55:02] [26067]
+INFO  Generation 238: start
+INFO  connection->neuron id map size == 297
+INFO  neurons->connection id map size == 17851
+INFO  species count: 99
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48258016 score=0.52 size=1466
+INFO  Generation 238: end [12:55:02 - 12:55:27] [25038]
+INFO  Generation 239: start
+INFO  connection->neuron id map size == 297
+INFO  neurons->connection id map size == 17901
+INFO  species count: 93
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48258016 score=0.52 size=1466
+INFO  Generation 239: end [12:55:27 - 12:55:52] [24633]
+INFO  Generation 240: start
+INFO  connection->neuron id map size == 299
+INFO  neurons->connection id map size == 18118
+INFO  species count: 94
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48258016 score=0.52 size=1466
+INFO  Generation 240: end [12:55:52 - 12:56:17] [25849]
+INFO  Generation 241: start
+INFO  connection->neuron id map size == 14
+INFO  neurons->connection id map size == 590
+INFO  species count: 97
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48258016 score=0.52 size=1466
+INFO  Generation 241: end [12:56:17 - 12:56:44] [26489]
+INFO  Generation 242: start
+INFO  connection->neuron id map size == 11
+INFO  neurons->connection id map size == 762
+INFO  species count: 89
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48258016 score=0.52 size=1466
+INFO  Generation 242: end [12:56:44 - 12:57:10] [25740]
+INFO  Generation 243: start
+INFO  connection->neuron id map size == 12
+INFO  neurons->connection id map size == 840
+INFO  species count: 90
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48258016 score=0.52 size=1466
+INFO  Generation 243: end [12:57:10 - 12:57:34] [24195]
+INFO  Generation 244: start
+INFO  connection->neuron id map size == 302
+INFO  neurons->connection id map size == 18107
+INFO  species count: 91
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48258016 score=0.52 size=1466
+INFO  Generation 244: end [12:57:34 - 12:58:01] [26645]
+INFO  Generation 245: start
+INFO  connection->neuron id map size == 14
+INFO  neurons->connection id map size == 840
+INFO  species count: 94
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48258016 score=0.52 size=1466
+INFO  Generation 245: end [12:58:01 - 12:58:28] [27128]
+INFO  Generation 246: start
+INFO  connection->neuron id map size == 306
+INFO  neurons->connection id map size == 18356
+INFO  species count: 95
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48258016 score=0.52 size=1466
+INFO  Generation 246: end [12:58:28 - 12:58:54] [26427]
+INFO  Generation 247: start
+INFO  connection->neuron id map size == 311
+INFO  neurons->connection id map size == 18482
+INFO  species count: 95
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48258016 score=0.52 size=1466
+INFO  Generation 247: end [12:58:54 - 12:59:20] [26317]
+INFO  Generation 248: start
+INFO  connection->neuron id map size == 312
+INFO  neurons->connection id map size == 18528
+INFO  species count: 93
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48258016 score=0.52 size=1466
+INFO  Generation 248: end [12:59:20 - 12:59:47] [26972]
+INFO  Generation 249: start
+INFO  connection->neuron id map size == 316
+INFO  neurons->connection id map size == 18604
+INFO  species count: 95
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48258016 score=0.52 size=1466
+INFO  Generation 249: end [12:59:47 - 13:00:14] [26224]
+INFO  Generation 250: start
+INFO  connection->neuron id map size == 317
+INFO  neurons->connection id map size == 18690
+INFO  species count: 89
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48258016 score=0.52 size=1466
+INFO  Generation 250: end [13:00:14 - 13:00:38] [24726]
+INFO  Generation 251: start
+INFO  connection->neuron id map size == 312
+INFO  neurons->connection id map size == 18805
+INFO  species count: 89
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48258016 score=0.52 size=1466
+INFO  Generation 251: end [13:00:38 - 13:01:06] [27846]
+INFO  Generation 252: start
+INFO  connection->neuron id map size == 314
+INFO  neurons->connection id map size == 18868
+INFO  species count: 94
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48258016 score=0.52 size=1466
+INFO  Generation 252: end [13:01:06 - 13:01:33] [26972]
+INFO  Generation 253: start
+INFO  connection->neuron id map size == 3
+INFO  neurons->connection id map size == 399
+INFO  species count: 93
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48258016 score=0.52 size=1466
+INFO  Generation 253: end [13:01:33 - 13:02:01] [27533]
+INFO  Generation 254: start
+INFO  connection->neuron id map size == 9
+INFO  neurons->connection id map size == 466
+INFO  species count: 86
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48258016 score=0.52 size=1466
+INFO  Generation 254: end [13:02:01 - 13:02:26] [25487]
+INFO  Generation 255: start
+INFO  connection->neuron id map size == 318
+INFO  neurons->connection id map size == 19062
+INFO  species count: 93
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48258016 score=0.52 size=1466
+INFO  Generation 255: end [13:02:26 - 13:02:51] [24723]
+INFO  Generation 256: start
+INFO  connection->neuron id map size == 323
+INFO  neurons->connection id map size == 19080
+INFO  species count: 98
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48258016 score=0.52 size=1466
+INFO  Generation 256: end [13:02:51 - 13:03:15] [24177]
+INFO  Generation 257: start
+INFO  connection->neuron id map size == 323
+INFO  neurons->connection id map size == 19099
+INFO  species count: 93
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48258016 score=0.52 size=1466
+INFO  Generation 257: end [13:03:15 - 13:03:40] [25004]
+INFO  Generation 258: start
+INFO  connection->neuron id map size == 323
+INFO  neurons->connection id map size == 19148
+INFO  species count: 93
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48258016 score=0.52 size=1466
+INFO  Generation 258: end [13:03:40 - 13:04:05] [24582]
+INFO  Generation 259: start
+INFO  connection->neuron id map size == 324
+INFO  neurons->connection id map size == 19208
+INFO  species count: 102
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48258016 score=0.52 size=1466
+INFO  Generation 259: end [13:04:05 - 13:04:30] [25784]
+INFO  Generation 260: start
+INFO  connection->neuron id map size == 4
+INFO  neurons->connection id map size == 392
+INFO  species count: 105
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48258016 score=0.52 size=1466
+INFO  Generation 260: end [13:04:30 - 13:04:55] [24645]
+INFO  Generation 261: start
+INFO  connection->neuron id map size == 332
+INFO  neurons->connection id map size == 19361
+INFO  species count: 103
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48258016 score=0.52 size=1466
+INFO  Generation 261: end [13:04:55 - 13:05:20] [24770]
+INFO  Generation 262: start
+INFO  connection->neuron id map size == 331
+INFO  neurons->connection id map size == 19431
+INFO  species count: 99
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48258016 score=0.52 size=1466
+INFO  Generation 262: end [13:05:20 - 13:05:46] [25924]
+INFO  Generation 263: start
+INFO  connection->neuron id map size == 7
+INFO  neurons->connection id map size == 633
+INFO  species count: 100
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48258016 score=0.52 size=1466
+INFO  Generation 263: end [13:05:46 - 13:06:12] [25877]
+INFO  Generation 264: start
+INFO  connection->neuron id map size == 6
+INFO  neurons->connection id map size == 735
+INFO  species count: 112
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48258016 score=0.52 size=1466
+INFO  Generation 264: end [13:06:12 - 13:06:38] [26252]
+INFO  Generation 265: start
+INFO  connection->neuron id map size == 8
+INFO  neurons->connection id map size == 818
+INFO  species count: 109
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48258016 score=0.52 size=1466
+INFO  Generation 265: end [13:06:38 - 13:07:04] [26393]
+INFO  Generation 266: start
+INFO  connection->neuron id map size == 341
+INFO  neurons->connection id map size == 19774
+INFO  species count: 103
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48258016 score=0.52 size=1466
+INFO  Generation 266: end [13:07:04 - 13:07:31] [26223]
+INFO  Generation 267: start
+INFO  connection->neuron id map size == 342
+INFO  neurons->connection id map size == 19953
+INFO  species count: 103
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48258016 score=0.52 size=1466
+INFO  Generation 267: end [13:07:31 - 13:07:56] [25723]
+INFO  Generation 268: start
+INFO  connection->neuron id map size == 342
+INFO  neurons->connection id map size == 19997
+INFO  species count: 99
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48258016 score=0.52 size=1466
+INFO  Generation 268: end [13:07:56 - 13:08:21] [24819]
+INFO  Generation 269: start
+INFO  connection->neuron id map size == 342
+INFO  neurons->connection id map size == 20079
+INFO  species count: 104
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48258016 score=0.52 size=1466
+INFO  Generation 269: end [13:08:21 - 13:08:47] [25630]
+INFO  Generation 270: start
+INFO  connection->neuron id map size == 343
+INFO  neurons->connection id map size == 20152
+INFO  species count: 104
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48258016 score=0.52 size=1466
+INFO  Generation 270: end [13:08:47 - 13:09:12] [25208]
+INFO  Generation 271: start
+INFO  connection->neuron id map size == 344
+INFO  neurons->connection id map size == 20174
+INFO  species count: 102
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48258016 score=0.52 size=1466
+INFO  Generation 271: end [13:09:12 - 13:09:37] [25396]
+INFO  Generation 272: start
+INFO  connection->neuron id map size == 19
+INFO  neurons->connection id map size == 1424
+INFO  species count: 106
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48258016 score=0.52 size=1466
+INFO  Generation 272: end [13:09:37 - 13:10:03] [25880]
+INFO  Generation 273: start
+INFO  connection->neuron id map size == 20
+INFO  neurons->connection id map size == 1524
+INFO  species count: 101
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48258016 score=0.52 size=1466
+INFO  Generation 273: end [13:10:03 - 13:10:30] [26519]
+INFO  Generation 274: start
+INFO  connection->neuron id map size == 19
+INFO  neurons->connection id map size == 1593
+INFO  species count: 104
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48258016 score=0.52 size=1466
+INFO  Generation 274: end [13:10:30 - 13:10:57] [27049]
+INFO  Generation 275: start
+INFO  connection->neuron id map size == 20
+INFO  neurons->connection id map size == 1636
+INFO  species count: 105
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48258016 score=0.52 size=1466
+INFO  Generation 275: end [13:10:57 - 13:11:24] [27127]
+INFO  Generation 276: start
+INFO  connection->neuron id map size == 22
+INFO  neurons->connection id map size == 1761
+INFO  species count: 102
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48258016 score=0.52 size=1466
+INFO  Generation 276: end [13:11:24 - 13:11:49] [25084]
+INFO  Generation 277: start
+INFO  connection->neuron id map size == 24
+INFO  neurons->connection id map size == 1864
+INFO  species count: 110
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48258016 score=0.52 size=1466
+INFO  Generation 277: end [13:11:49 - 13:12:15] [25724]
+INFO  Generation 278: start
+INFO  connection->neuron id map size == 23
+INFO  neurons->connection id map size == 2011
+INFO  species count: 107
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48258016 score=0.52 size=1466
+INFO  Generation 278: end [13:12:15 - 13:12:41] [26629]
+INFO  Generation 279: start
+INFO  connection->neuron id map size == 25
+INFO  neurons->connection id map size == 2100
+INFO  species count: 113
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48258016 score=0.52 size=1466
+INFO  Generation 279: end [13:12:41 - 13:13:07] [25319]
+INFO  Generation 280: start
+INFO  connection->neuron id map size == 26
+INFO  neurons->connection id map size == 2215
+INFO  species count: 113
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48258016 score=0.52 size=1466
+INFO  Generation 280: end [13:13:07 - 13:13:34] [27720]
+INFO  Generation 281: start
+INFO  connection->neuron id map size == 28
+INFO  neurons->connection id map size == 2321
+INFO  species count: 114
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48258016 score=0.52 size=1466
+INFO  Generation 281: end [13:13:34 - 13:13:59] [24991]
+INFO  Generation 282: start
+INFO  connection->neuron id map size == 29
+INFO  neurons->connection id map size == 2410
+INFO  species count: 115
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48258016 score=0.52 size=1466
+INFO  Generation 282: end [13:13:59 - 13:14:25] [25522]
+INFO  Generation 283: start
+INFO  connection->neuron id map size == 31
+INFO  neurons->connection id map size == 2527
+INFO  species count: 113
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48258016 score=0.52 size=1466
+INFO  Generation 283: end [13:14:25 - 13:14:52] [27174]
+INFO  Generation 284: start
+INFO  connection->neuron id map size == 31
+INFO  neurons->connection id map size == 2611
+INFO  species count: 123
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48258016 score=0.52 size=1466
+INFO  Generation 284: end [13:14:52 - 13:15:19] [26957]
+INFO  Generation 285: start
+INFO  connection->neuron id map size == 32
+INFO  neurons->connection id map size == 2753
+INFO  species count: 121
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48258016 score=0.52 size=1466
+INFO  Generation 285: end [13:15:19 - 13:15:45] [26285]
+INFO  Generation 286: start
+INFO  connection->neuron id map size == 34
+INFO  neurons->connection id map size == 2818
+INFO  species count: 110
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48258016 score=0.52 size=1466
+INFO  Generation 286: end [13:15:45 - 13:16:10] [24742]
+INFO  Generation 287: start
+INFO  connection->neuron id map size == 38
+INFO  neurons->connection id map size == 2907
+INFO  species count: 114
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48258016 score=0.52 size=1466
+INFO  Generation 287: end [13:16:10 - 13:16:38] [28376]
+INFO  Generation 288: start
+INFO  connection->neuron id map size == 37
+INFO  neurons->connection id map size == 2965
+INFO  species count: 115
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48258016 score=0.52 size=1466
+INFO  Generation 288: end [13:16:38 - 13:17:06] [27222]
+INFO  Generation 289: start
+INFO  connection->neuron id map size == 38
+INFO  neurons->connection id map size == 3198
+INFO  species count: 115
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48258016 score=0.52 size=1466
+INFO  Generation 289: end [13:17:06 - 13:17:33] [27315]
+INFO  Generation 290: start
+INFO  connection->neuron id map size == 39
+INFO  neurons->connection id map size == 3263
+INFO  species count: 113
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48258016 score=0.52 size=1466
+INFO  Generation 290: end [13:17:33 - 13:17:59] [25709]
+INFO  Generation 291: start
+INFO  connection->neuron id map size == 40
+INFO  neurons->connection id map size == 3334
+INFO  species count: 114
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48258016 score=0.52 size=1466
+INFO  Generation 291: end [13:17:59 - 13:18:25] [26271]
+INFO  Generation 292: start
+INFO  connection->neuron id map size == 41
+INFO  neurons->connection id map size == 3373
+INFO  species count: 115
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48258016 score=0.52 size=1466
+INFO  Generation 292: end [13:18:25 - 13:18:51] [25662]
+INFO  Generation 293: start
+INFO  connection->neuron id map size == 43
+INFO  neurons->connection id map size == 3481
+INFO  species count: 114
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48258016 score=0.52 size=1466
+INFO  Generation 293: end [13:18:51 - 13:19:17] [26535]
+INFO  Generation 294: start
+INFO  connection->neuron id map size == 48
+INFO  neurons->connection id map size == 3564
+INFO  species count: 114
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48258016 score=0.52 size=1466
+INFO  Generation 294: end [13:19:17 - 13:19:42] [24742]
+INFO  Generation 295: start
+INFO  connection->neuron id map size == 49
+INFO  neurons->connection id map size == 3678
+INFO  species count: 114
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48258016 score=0.52 size=1466
+INFO  Generation 295: end [13:19:42 - 13:20:09] [26707]
+INFO  Generation 296: start
+INFO  connection->neuron id map size == 45
+INFO  neurons->connection id map size == 3876
+INFO  species count: 114
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48258016 score=0.52 size=1466
+INFO  Generation 296: end [13:20:09 - 13:20:35] [26894]
+INFO  Generation 297: start
+INFO  connection->neuron id map size == 47
+INFO  neurons->connection id map size == 3830
+INFO  species count: 115
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48258016 score=0.52 size=1466
+INFO  Generation 297: end [13:20:35 - 13:21:02] [26957]
+INFO  Generation 298: start
+INFO  connection->neuron id map size == 48
+INFO  neurons->connection id map size == 3954
+INFO  species count: 116
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48258016 score=0.52 size=1466
+INFO  Generation 298: end [13:21:02 - 13:21:27] [24711]
+INFO  Generation 299: start
+INFO  connection->neuron id map size == 52
+INFO  neurons->connection id map size == 3988
+INFO  species count: 115
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48258016 score=0.52 size=1466
+INFO  Generation 299: end [13:21:27 - 13:21:53] [25849]
+INFO  Generation 300: start
+INFO  connection->neuron id map size == 54
+INFO  neurons->connection id map size == 3993
+INFO  species count: 112
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48258016 score=0.52 size=1466
+INFO  Generation 300: end [13:21:53 - 13:22:18] [24944]
+INFO  Generation 301: start
+INFO  connection->neuron id map size == 57
+INFO  neurons->connection id map size == 4172
+INFO  species count: 116
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48258016 score=0.52 size=1466
+INFO  Generation 301: end [13:22:18 - 13:22:45] [27378]
+INFO  Generation 302: start
+INFO  connection->neuron id map size == 58
+INFO  neurons->connection id map size == 4255
+INFO  species count: 116
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48258016 score=0.52 size=1466
+INFO  Generation 302: end [13:22:45 - 13:23:10] [24757]
+INFO  Generation 303: start
+INFO  connection->neuron id map size == 55
+INFO  neurons->connection id map size == 4360
+INFO  species count: 114
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48258016 score=0.52 size=1466
+INFO  Generation 303: end [13:23:10 - 13:23:36] [25959]
+INFO  Generation 304: start
+INFO  connection->neuron id map size == 57
+INFO  neurons->connection id map size == 4400
+INFO  species count: 113
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48258016 score=0.52 size=1466
+INFO  Generation 304: end [13:23:36 - 13:24:03] [26941]
+INFO  Generation 305: start
+INFO  connection->neuron id map size == 58
+INFO  neurons->connection id map size == 4499
+INFO  species count: 113
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48258016 score=0.52 size=1466
+INFO  Generation 305: end [13:24:03 - 13:24:28] [25397]
+INFO  Generation 306: start
+INFO  connection->neuron id map size == 56
+INFO  neurons->connection id map size == 4609
+INFO  species count: 117
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48258016 score=0.52 size=1466
+INFO  Generation 306: end [13:24:28 - 13:24:55] [26832]
+INFO  Generation 307: start
+INFO  connection->neuron id map size == 63
+INFO  neurons->connection id map size == 4773
+INFO  species count: 114
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48258016 score=0.52 size=1466
+INFO  Generation 307: end [13:24:55 - 13:25:23] [27378]
+INFO  Generation 308: start
+INFO  connection->neuron id map size == 66
+INFO  neurons->connection id map size == 4834
+INFO  species count: 115
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48258016 score=0.52 size=1466
+INFO  Generation 308: end [13:25:23 - 13:25:50] [27596]
+INFO  Generation 309: start
+INFO  connection->neuron id map size == 68
+INFO  neurons->connection id map size == 4796
+INFO  species count: 116
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48258016 score=0.52 size=1466
+INFO  Generation 309: end [13:25:50 - 13:26:19] [28673]
+INFO  Generation 310: start
+INFO  connection->neuron id map size == 70
+INFO  neurons->connection id map size == 4940
+INFO  species count: 113
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48258016 score=0.52 size=1466
+INFO  Generation 310: end [13:26:19 - 13:26:47] [28189]
+INFO  Generation 311: start
+INFO  connection->neuron id map size == 70
+INFO  neurons->connection id map size == 4995
+INFO  species count: 121
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48258016 score=0.52 size=1466
+INFO  Generation 311: end [13:26:47 - 13:27:15] [28111]
+INFO  Generation 312: start
+INFO  connection->neuron id map size == 72
+INFO  neurons->connection id map size == 5057
+INFO  species count: 118
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48258016 score=0.52 size=1466
+INFO  Generation 312: end [13:27:15 - 13:27:40] [25116]
+INFO  Generation 313: start
+INFO  connection->neuron id map size == 74
+INFO  neurons->connection id map size == 5028
+INFO  species count: 119
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48258016 score=0.52 size=1466
+INFO  Generation 313: end [13:27:40 - 13:28:08] [27706]
+INFO  Generation 314: start
+INFO  connection->neuron id map size == 75
+INFO  neurons->connection id map size == 5127
+INFO  species count: 117
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48258016 score=0.52 size=1466
+INFO  Generation 314: end [13:28:08 - 13:28:34] [25849]
+INFO  Generation 315: start
+INFO  connection->neuron id map size == 72
+INFO  neurons->connection id map size == 5359
+INFO  species count: 122
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48258016 score=0.52 size=1466
+INFO  Generation 315: end [13:28:34 - 13:29:02] [27799]
+INFO  Generation 316: start
+INFO  connection->neuron id map size == 70
+INFO  neurons->connection id map size == 5393
+INFO  species count: 119
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48258016 score=0.52 size=1466
+INFO  Generation 316: end [13:29:02 - 13:29:29] [27316]
+INFO  Generation 317: start
+INFO  connection->neuron id map size == 70
+INFO  neurons->connection id map size == 5459
+INFO  species count: 118
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48258016 score=0.52 size=1466
+INFO  Generation 317: end [13:29:29 - 13:29:56] [27331]
+INFO  Generation 318: start
+INFO  connection->neuron id map size == 71
+INFO  neurons->connection id map size == 5497
+INFO  species count: 117
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48258016 score=0.52 size=1466
+INFO  Generation 318: end [13:29:56 - 13:30:24] [27612]
+INFO  Generation 319: start
+INFO  connection->neuron id map size == 83
+INFO  neurons->connection id map size == 5504
+INFO  species count: 121
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48258016 score=0.52 size=1466
+INFO  Generation 319: end [13:30:24 - 13:30:53] [28751]
+INFO  Generation 320: start
+INFO  connection->neuron id map size == 84
+INFO  neurons->connection id map size == 5563
+INFO  species count: 118
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48258016 score=0.52 size=1466
+INFO  Generation 320: end [13:30:53 - 13:31:19] [26488]
+INFO  Generation 321: start
+INFO  connection->neuron id map size == 87
+INFO  neurons->connection id map size == 5603
+INFO  species count: 117
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48258016 score=0.52 size=1466
+INFO  Generation 321: end [13:31:19 - 13:31:45] [26006]
+INFO  Generation 322: start
+INFO  connection->neuron id map size == 78
+INFO  neurons->connection id map size == 6027
+INFO  species count: 118
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48258016 score=0.52 size=1466
+INFO  Generation 322: end [13:31:45 - 13:32:11] [26379]
+INFO  Generation 323: start
+INFO  connection->neuron id map size == 84
+INFO  neurons->connection id map size == 6154
+INFO  species count: 118
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48258016 score=0.52 size=1466
+INFO  Generation 323: end [13:32:11 - 13:32:37] [25366]
+INFO  Generation 324: start
+INFO  connection->neuron id map size == 84
+INFO  neurons->connection id map size == 6236
+INFO  species count: 119
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48258016 score=0.52 size=1466
+INFO  Generation 324: end [13:32:37 - 13:33:04] [27253]
+INFO  Generation 325: start
+INFO  connection->neuron id map size == 86
+INFO  neurons->connection id map size == 6313
+INFO  species count: 119
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48258016 score=0.52 size=1466
+INFO  Generation 325: end [13:33:04 - 13:33:30] [25444]
+INFO  Generation 326: start
+INFO  connection->neuron id map size == 79
+INFO  neurons->connection id map size == 6341
+INFO  species count: 118
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48258016 score=0.52 size=1466
+INFO  Generation 326: end [13:33:30 - 13:33:56] [26410]
+INFO  Generation 327: start
+INFO  connection->neuron id map size == 80
+INFO  neurons->connection id map size == 6446
+INFO  species count: 117
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48258016 score=0.52 size=1466
+INFO  Generation 327: end [13:33:56 - 13:34:22] [26052]
+INFO  Generation 328: start
+INFO  connection->neuron id map size == 88
+INFO  neurons->connection id map size == 6755
+INFO  species count: 118
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48258016 score=0.52 size=1466
+INFO  Generation 328: end [13:34:22 - 13:34:48] [26052]
+INFO  Generation 329: start
+INFO  connection->neuron id map size == 92
+INFO  neurons->connection id map size == 6865
+INFO  species count: 118
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48258016 score=0.52 size=1466
+INFO  Generation 329: end [13:34:48 - 13:35:15] [26817]
+INFO  Generation 330: start
+INFO  connection->neuron id map size == 93
+INFO  neurons->connection id map size == 6911
+INFO  species count: 117
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48258016 score=0.52 size=1466
+INFO  Generation 330: end [13:35:15 - 13:35:40] [25303]
+INFO  Generation 331: start
+INFO  connection->neuron id map size == 93
+INFO  neurons->connection id map size == 7003
+INFO  species count: 118
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48258016 score=0.52 size=1466
+INFO  Generation 331: end [13:35:40 - 13:36:08] [27394]
+INFO  Generation 332: start
+INFO  connection->neuron id map size == 95
+INFO  neurons->connection id map size == 7042
+INFO  species count: 117
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48258016 score=0.52 size=1466
+INFO  Generation 332: end [13:36:08 - 13:36:34] [26566]
+INFO  Generation 333: start
+INFO  connection->neuron id map size == 99
+INFO  neurons->connection id map size == 7234
+INFO  species count: 117
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48258016 score=0.52 size=1466
+INFO  Generation 333: end [13:36:34 - 13:37:01] [27004]
+INFO  Generation 334: start
+INFO  connection->neuron id map size == 98
+INFO  neurons->connection id map size == 7245
+INFO  species count: 117
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48258016 score=0.52 size=1466
+INFO  Generation 334: end [13:37:01 - 13:37:28] [26988]
+INFO  Generation 335: start
+INFO  connection->neuron id map size == 98
+INFO  neurons->connection id map size == 7366
+INFO  species count: 118
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48258016 score=0.52 size=1466
+INFO  Generation 335: end [13:37:28 - 13:37:54] [25600]
+INFO  Generation 336: start
+INFO  connection->neuron id map size == 98
+INFO  neurons->connection id map size == 7429
+INFO  species count: 116
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48258016 score=0.52 size=1466
+INFO  Generation 336: end [13:37:54 - 13:38:20] [25880]
+INFO  Generation 337: start
+INFO  connection->neuron id map size == 99
+INFO  neurons->connection id map size == 7490
+INFO  species count: 117
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48258016 score=0.52 size=1466
+INFO  Generation 337: end [13:38:20 - 13:38:45] [25506]
+INFO  Generation 338: start
+INFO  couldn't load NEAT ids from file, starting with new mapping
+[Fatal Error] :5:224442: XML document structures must start and end within the same entity.
+INFO  connection->neuron id map size == 2
+INFO  neurons->connection id map size == 80
+INFO  species count: 118
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48258016 score=0.52 size=1466
+INFO  Generation 338: end [13:38:45 - 13:39:11] [25990]
+INFO  Generation 339: start
+INFO  connection->neuron id map size == 2
+INFO  neurons->connection id map size == 165
+INFO  species count: 117
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48258016 score=0.52 size=1466
+INFO  Generation 339: end [13:39:11 - 13:39:37] [26270]
+INFO  Generation 340: start
+INFO  connection->neuron id map size == 101
+INFO  neurons->connection id map size == 7809
+INFO  species count: 118
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48258016 score=0.52 size=1466
+INFO  Generation 340: end [13:39:37 - 13:40:04] [26614]
+INFO  Generation 341: start
+INFO  connection->neuron id map size == 107
+INFO  neurons->connection id map size == 7835
+INFO  species count: 118
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48258016 score=0.52 size=1466
+INFO  Generation 341: end [13:40:04 - 13:40:30] [26192]
+INFO  Generation 342: start
+INFO  connection->neuron id map size == 109
+INFO  neurons->connection id map size == 7918
+INFO  species count: 118
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48258016 score=0.52 size=1466
+INFO  Generation 342: end [13:40:30 - 13:40:56] [25600]
+INFO  Generation 343: start
+INFO  connection->neuron id map size == 115
+INFO  neurons->connection id map size == 8025
+INFO  species count: 121
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48258016 score=0.52 size=1466
+INFO  Generation 343: end [13:40:56 - 13:41:23] [27112]
+INFO  Generation 344: start
+INFO  connection->neuron id map size == 116
+INFO  neurons->connection id map size == 8076
+INFO  species count: 117
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48258016 score=0.52 size=1466
+INFO  Generation 344: end [13:41:23 - 13:41:50] [27488]
+INFO  Generation 345: start
+INFO  connection->neuron id map size == 115
+INFO  neurons->connection id map size == 8401
+INFO  species count: 117
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48258016 score=0.52 size=1466
+INFO  Generation 345: end [13:41:50 - 13:42:19] [28953]
+INFO  Generation 346: start
+INFO  connection->neuron id map size == 117
+INFO  neurons->connection id map size == 8300
+INFO  species count: 118
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48258016 score=0.52 size=1466
+INFO  Generation 346: end [13:42:19 - 13:42:47] [27815]
+INFO  Generation 347: start
+INFO  connection->neuron id map size == 118
+INFO  neurons->connection id map size == 8386
+INFO  species count: 120
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48258016 score=0.52 size=1466
+INFO  Generation 347: end [13:42:47 - 13:43:14] [27128]
+INFO  Generation 348: start
+INFO  connection->neuron id map size == 121
+INFO  neurons->connection id map size == 8377
+INFO  species count: 118
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48258016 score=0.52 size=1466
+INFO  Generation 348: end [13:43:14 - 13:43:40] [25756]
+INFO  Generation 349: start
+INFO  connection->neuron id map size == 126
+INFO  neurons->connection id map size == 8439
+INFO  species count: 119
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48258016 score=0.52 size=1466
+INFO  Generation 349: end [13:43:40 - 13:44:06] [26224]
+INFO  Generation 350: start
+INFO  connection->neuron id map size == 122
+INFO  neurons->connection id map size == 8440
+INFO  species count: 117
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48258016 score=0.52 size=1466
+INFO  Generation 350: end [13:44:06 - 13:44:32] [26161]
+INFO  Generation 351: start
+INFO  connection->neuron id map size == 120
+INFO  neurons->connection id map size == 8731
+INFO  species count: 118
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48258016 score=0.52 size=1466
+INFO  Generation 351: end [13:44:32 - 13:44:59] [26707]
+INFO  Generation 352: start
+INFO  connection->neuron id map size == 120
+INFO  neurons->connection id map size == 8770
+INFO  species count: 119
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48258016 score=0.52 size=1466
+INFO  Generation 352: end [13:44:59 - 13:45:26] [27222]
+INFO  Generation 353: start
+INFO  connection->neuron id map size == 129
+INFO  neurons->connection id map size == 8896
+INFO  species count: 122
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48258016 score=0.52 size=1466
+INFO  Generation 353: end [13:45:26 - 13:45:53] [26426]
+INFO  Generation 354: start
+INFO  connection->neuron id map size == 129
+INFO  neurons->connection id map size == 8940
+INFO  species count: 124
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48258016 score=0.52 size=1466
+INFO  Generation 354: end [13:45:53 - 13:46:22] [28798]
+INFO  Generation 355: start
+INFO  connection->neuron id map size == 129
+INFO  neurons->connection id map size == 8759
+INFO  species count: 123
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48258016 score=0.52 size=1466
+INFO  Generation 355: end [13:46:22 - 13:46:49] [27113]
+INFO  Generation 356: start
+INFO  connection->neuron id map size == 121
+INFO  neurons->connection id map size == 9066
+INFO  species count: 122
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48258016 score=0.52 size=1466
+INFO  Generation 356: end [13:46:49 - 13:47:16] [27471]
+INFO  Generation 357: start
+INFO  connection->neuron id map size == 124
+INFO  neurons->connection id map size == 9192
+INFO  species count: 121
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48258016 score=0.52 size=1466
+INFO  Generation 357: end [13:47:16 - 13:47:43] [26349]
+INFO  Generation 358: start
+INFO  connection->neuron id map size == 125
+INFO  neurons->connection id map size == 9278
+INFO  species count: 122
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48258016 score=0.52 size=1466
+INFO  Generation 358: end [13:47:43 - 13:48:10] [27253]
+INFO  Generation 359: start
+INFO  connection->neuron id map size == 125
+INFO  neurons->connection id map size == 9354
+INFO  species count: 123
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48258016 score=0.52 size=1466
+INFO  Generation 359: end [13:48:10 - 13:48:37] [26816]
+INFO  Generation 360: start
+INFO  connection->neuron id map size == 125
+INFO  neurons->connection id map size == 9529
+INFO  species count: 122
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48258016 score=0.52 size=1466
+INFO  Generation 360: end [13:48:37 - 13:49:02] [25444]
+INFO  Generation 361: start
+INFO  connection->neuron id map size == 131
+INFO  neurons->connection id map size == 9587
+INFO  species count: 122
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48258016 score=0.52 size=1466
+INFO  Generation 361: end [13:49:02 - 13:49:30] [27737]
+INFO  Generation 362: start
+INFO  connection->neuron id map size == 130
+INFO  neurons->connection id map size == 9601
+INFO  species count: 123
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48258016 score=0.52 size=1466
+INFO  Generation 362: end [13:49:30 - 13:49:58] [28361]
+INFO  Generation 363: start
+INFO  connection->neuron id map size == 130
+INFO  neurons->connection id map size == 9649
+INFO  species count: 123
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48258016 score=0.52 size=1466
+INFO  Generation 363: end [13:49:58 - 13:50:24] [26286]
+INFO  Generation 364: start
+INFO  connection->neuron id map size == 134
+INFO  neurons->connection id map size == 9699
+INFO  species count: 121
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48258016 score=0.52 size=1466
+INFO  Generation 364: end [13:50:24 - 13:50:50] [25912]
+INFO  Generation 365: start
+INFO  connection->neuron id map size == 136
+INFO  neurons->connection id map size == 9776
+INFO  species count: 122
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48258016 score=0.52 size=1466
+INFO  Generation 365: end [13:50:50 - 13:51:16] [25225]
+INFO  Generation 366: start
+INFO  connection->neuron id map size == 138
+INFO  neurons->connection id map size == 9844
+INFO  species count: 122
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48258016 score=0.52 size=1466
+INFO  Generation 366: end [13:51:16 - 13:51:40] [24835]
+INFO  Generation 367: start
+INFO  connection->neuron id map size == 133
+INFO  neurons->connection id map size == 10069
+INFO  species count: 121
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48258016 score=0.52 size=1466
+INFO  Generation 367: end [13:51:40 - 13:52:07] [26551]
+INFO  Generation 368: start
+INFO  connection->neuron id map size == 138
+INFO  neurons->connection id map size == 10072
+INFO  species count: 121
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48258016 score=0.52 size=1466
+INFO  Generation 368: end [13:52:07 - 13:52:34] [27410]
+INFO  Generation 369: start
+INFO  connection->neuron id map size == 135
+INFO  neurons->connection id map size == 10167
+INFO  species count: 122
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48258016 score=0.52 size=1466
+INFO  Generation 369: end [13:52:34 - 13:53:01] [26520]
+INFO  Generation 370: start
+INFO  connection->neuron id map size == 142
+INFO  neurons->connection id map size == 10250
+INFO  species count: 121
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48258016 score=0.52 size=1466
+INFO  Generation 370: end [13:53:01 - 13:53:28] [27003]
+INFO  Generation 371: start
+INFO  connection->neuron id map size == 143
+INFO  neurons->connection id map size == 10327
+INFO  species count: 123
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48258016 score=0.52 size=1466
+INFO  Generation 371: end [13:53:28 - 13:53:54] [26489]
+INFO  Generation 372: start
+INFO  connection->neuron id map size == 142
+INFO  neurons->connection id map size == 10414
+INFO  species count: 122
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48258016 score=0.52 size=1466
+INFO  Generation 372: end [13:53:54 - 13:54:22] [27955]
+INFO  Generation 373: start
+INFO  connection->neuron id map size == 144
+INFO  neurons->connection id map size == 10583
+INFO  species count: 120
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48258016 score=0.52 size=1466
+INFO  Generation 373: end [13:54:22 - 13:54:48] [25647]
+INFO  Generation 374: start
+INFO  connection->neuron id map size == 145
+INFO  neurons->connection id map size == 10634
+INFO  species count: 121
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48258016 score=0.52 size=1466
+INFO  Generation 374: end [13:54:48 - 13:55:13] [25490]
+INFO  Generation 375: start
+INFO  connection->neuron id map size == 147
+INFO  neurons->connection id map size == 10724
+INFO  species count: 123
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48258016 score=0.52 size=1466
+INFO  Generation 375: end [13:55:13 - 13:55:39] [25428]
+INFO  Generation 376: start
+INFO  connection->neuron id map size == 148
+INFO  neurons->connection id map size == 10856
+INFO  species count: 120
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48258016 score=0.52 size=1466
+INFO  Generation 376: end [13:55:39 - 13:56:05] [26380]
+INFO  Generation 377: start
+INFO  connection->neuron id map size == 153
+INFO  neurons->connection id map size == 10886
+INFO  species count: 122
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48258016 score=0.52 size=1466
+INFO  Generation 377: end [13:56:05 - 13:56:33] [27690]
+INFO  Generation 378: start
+INFO  connection->neuron id map size == 155
+INFO  neurons->connection id map size == 10859
+INFO  species count: 122
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48258016 score=0.52 size=1466
+INFO  Generation 378: end [13:56:33 - 13:56:59] [26379]
+INFO  Generation 379: start
+INFO  connection->neuron id map size == 155
+INFO  neurons->connection id map size == 11081
+INFO  species count: 120
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48258016 score=0.52 size=1466
+INFO  Generation 379: end [13:56:59 - 13:57:25] [26021]
+INFO  Generation 380: start
+INFO  connection->neuron id map size == 156
+INFO  neurons->connection id map size == 11190
+INFO  species count: 120
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48258016 score=0.52 size=1466
+INFO  Generation 380: end [13:57:25 - 13:57:52] [26660]
+INFO  Generation 381: start
+INFO  connection->neuron id map size == 156
+INFO  neurons->connection id map size == 11231
+INFO  species count: 123
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48258016 score=0.52 size=1466
+INFO  Generation 381: end [13:57:52 - 13:58:18] [25538]
+INFO  Generation 382: start
+INFO  connection->neuron id map size == 154
+INFO  neurons->connection id map size == 11256
+INFO  species count: 123
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48258016 score=0.52 size=1466
+INFO  Generation 382: end [13:58:18 - 13:58:44] [25989]
+INFO  Generation 383: start
+INFO  connection->neuron id map size == 157
+INFO  neurons->connection id map size == 11356
+INFO  species count: 122
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48258016 score=0.52 size=1466
+INFO  Generation 383: end [13:58:44 - 13:59:11] [27503]
+INFO  Generation 384: start
+INFO  connection->neuron id map size == 160
+INFO  neurons->connection id map size == 11459
+INFO  species count: 121
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48258016 score=0.52 size=1466
+INFO  Generation 384: end [13:59:11 - 13:59:38] [27425]
+INFO  Generation 385: start
+[Fatal Error] :1:1: Premature end of file.
+INFO  couldn't load NEAT ids from file, starting with new mapping
+INFO  connection->neuron id map size == 2
+INFO  neurons->connection id map size == 73
+INFO  species count: 132
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48341404 score=0.98 size=1432
+INFO  Generation 385: end [13:59:38 - 14:00:04] [25599]
+INFO  Generation 386: start
+INFO  connection->neuron id map size == 164
+INFO  neurons->connection id map size == 11543
+INFO  species count: 128
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48341404 score=0.98 size=1432
+INFO  Generation 386: end [14:00:04 - 14:00:32] [27675]
+INFO  Generation 387: start
+INFO  connection->neuron id map size == 168
+INFO  neurons->connection id map size == 11641
+INFO  species count: 128
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48341404 score=0.98 size=1432
+INFO  Generation 387: end [14:00:32 - 14:00:59] [27471]
+INFO  Generation 388: start
+INFO  connection->neuron id map size == 169
+INFO  neurons->connection id map size == 11693
+INFO  species count: 129
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48341404 score=0.98 size=1432
+INFO  Generation 388: end [14:00:59 - 14:01:28] [28923]
+INFO  Generation 389: start
+INFO  connection->neuron id map size == 170
+INFO  neurons->connection id map size == 11748
+INFO  species count: 128
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48341404 score=0.98 size=1432
+INFO  Generation 389: end [14:01:28 - 14:01:54] [25958]
+INFO  Generation 390: start
+INFO  connection->neuron id map size == 176
+INFO  neurons->connection id map size == 11933
+INFO  species count: 131
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48341404 score=0.98 size=1432
+INFO  Generation 390: end [14:01:54 - 14:02:22] [27565]
+INFO  Generation 391: start
+INFO  connection->neuron id map size == 173
+INFO  neurons->connection id map size == 11955
+INFO  species count: 130
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48341404 score=0.98 size=1432
+INFO  Generation 391: end [14:02:22 - 14:02:50] [28034]
+INFO  Generation 392: start
+INFO  connection->neuron id map size == 174
+INFO  neurons->connection id map size == 12018
+INFO  species count: 129
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48341404 score=0.98 size=1432
+INFO  Generation 392: end [14:02:50 - 14:03:18] [27861]
+INFO  Generation 393: start
+INFO  connection->neuron id map size == 173
+INFO  neurons->connection id map size == 12071
+INFO  species count: 131
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48341404 score=0.98 size=1432
+INFO  Generation 393: end [14:03:18 - 14:03:48] [30498]
+INFO  Generation 394: start
+INFO  connection->neuron id map size == 176
+INFO  neurons->connection id map size == 12169
+INFO  species count: 133
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48341404 score=0.98 size=1432
+INFO  Generation 394: end [14:03:48 - 14:04:15] [26473]
+INFO  Generation 395: start
+INFO  connection->neuron id map size == 177
+INFO  neurons->connection id map size == 12222
+INFO  species count: 134
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48341404 score=0.98 size=1432
+INFO  Generation 395: end [14:04:15 - 14:04:42] [27644]
+INFO  Generation 396: start
+INFO  connection->neuron id map size == 178
+INFO  neurons->connection id map size == 12309
+INFO  species count: 135
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48341404 score=0.98 size=1432
+INFO  Generation 396: end [14:04:42 - 14:05:10] [28173]
+INFO  Generation 397: start
+INFO  connection->neuron id map size == 181
+INFO  neurons->connection id map size == 12359
+INFO  species count: 135
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48341404 score=0.98 size=1432
+INFO  Generation 397: end [14:05:10 - 14:05:37] [26583]
+INFO  Generation 398: start
+INFO  connection->neuron id map size == 183
+INFO  neurons->connection id map size == 12451
+INFO  species count: 133
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48341404 score=0.98 size=1432
+INFO  Generation 398: end [14:05:37 - 14:06:05] [28095]
+INFO  Generation 399: start
+INFO  connection->neuron id map size == 183
+INFO  neurons->connection id map size == 12564
+INFO  species count: 137
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48341404 score=0.98 size=1432
+INFO  Generation 399: end [14:06:05 - 14:06:33] [27487]
+INFO  Generation 400: start
+INFO  connection->neuron id map size == 184
+INFO  neurons->connection id map size == 12620
+INFO  species count: 133
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48341404 score=0.98 size=1432
+INFO  Generation 400: end [14:06:33 - 14:06:59] [26162]
+INFO  Generation 401: start
+INFO  connection->neuron id map size == 184
+INFO  neurons->connection id map size == 12712
+INFO  species count: 130
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48341404 score=0.98 size=1432
+INFO  Generation 401: end [14:06:59 - 14:07:24] [25584]
+INFO  Generation 402: start
+INFO  connection->neuron id map size == 185
+INFO  neurons->connection id map size == 12864
+INFO  species count: 129
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48341404 score=0.98 size=1432
+INFO  Generation 402: end [14:07:24 - 14:07:51] [27175]
+INFO  Generation 403: start
+INFO  connection->neuron id map size == 184
+INFO  neurons->connection id map size == 12970
+INFO  species count: 130
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48341404 score=0.98 size=1432
+INFO  Generation 403: end [14:07:51 - 14:08:18] [26676]
+INFO  Generation 404: start
+INFO  connection->neuron id map size == 190
+INFO  neurons->connection id map size == 13070
+INFO  species count: 128
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48341404 score=0.98 size=1432
+INFO  Generation 404: end [14:08:18 - 14:08:46] [27409]
+INFO  Generation 405: start
+INFO  connection->neuron id map size == 191
+INFO  neurons->connection id map size == 13107
+INFO  species count: 128
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48341404 score=0.98 size=1432
+INFO  Generation 405: end [14:08:46 - 14:09:11] [25631]
+INFO  Generation 406: start
+INFO  connection->neuron id map size == 191
+INFO  neurons->connection id map size == 13162
+INFO  species count: 129
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48341404 score=0.98 size=1432
+INFO  Generation 406: end [14:09:11 - 14:09:38] [26520]
+INFO  Generation 407: start
+INFO  connection->neuron id map size == 191
+INFO  neurons->connection id map size == 13347
+INFO  species count: 129
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48341404 score=0.98 size=1432
+INFO  Generation 407: end [14:09:38 - 14:10:05] [27175]
+INFO  Generation 408: start
+INFO  connection->neuron id map size == 194
+INFO  neurons->connection id map size == 13444
+INFO  species count: 129
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48341404 score=0.98 size=1432
+INFO  Generation 408: end [14:10:05 - 14:10:31] [26224]
+INFO  Generation 409: start
+INFO  connection->neuron id map size == 195
+INFO  neurons->connection id map size == 13490
+INFO  species count: 130
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48341404 score=0.98 size=1432
+INFO  Generation 409: end [14:10:31 - 14:10:58] [26925]
+INFO  Generation 410: start
+INFO  connection->neuron id map size == 194
+INFO  neurons->connection id map size == 13555
+INFO  species count: 142
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48341404 score=0.98 size=1432
+INFO  Generation 410: end [14:10:58 - 14:11:27] [29235]
+INFO  Generation 411: start
+INFO  connection->neuron id map size == 194
+INFO  neurons->connection id map size == 13657
+INFO  species count: 124
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48341404 score=0.98 size=1432
+INFO  Generation 411: end [14:11:27 - 14:11:53] [25662]
+INFO  Generation 412: start
+INFO  connection->neuron id map size == 197
+INFO  neurons->connection id map size == 13767
+INFO  species count: 133
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48341404 score=0.98 size=1432
+INFO  Generation 412: end [14:11:53 - 14:12:19] [26130]
+INFO  Generation 413: start
+INFO  connection->neuron id map size == 199
+INFO  neurons->connection id map size == 13864
+INFO  species count: 125
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48341404 score=0.98 size=1432
+INFO  Generation 413: end [14:12:19 - 14:12:45] [26083]
+INFO  Generation 414: start
+INFO  connection->neuron id map size == 201
+INFO  neurons->connection id map size == 13894
+INFO  species count: 120
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48341404 score=0.98 size=1432
+INFO  Generation 414: end [14:12:45 - 14:13:10] [24819]
+INFO  Generation 415: start
+INFO  connection->neuron id map size == 201
+INFO  neurons->connection id map size == 13964
+INFO  species count: 127
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48341404 score=0.98 size=1432
+INFO  Generation 415: end [14:13:10 - 14:13:36] [25740]
+INFO  Generation 416: start
+INFO  connection->neuron id map size == 202
+INFO  neurons->connection id map size == 14018
+INFO  species count: 117
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48341404 score=0.98 size=1432
+INFO  Generation 416: end [14:13:36 - 14:14:02] [26583]
+INFO  Generation 417: start
+INFO  connection->neuron id map size == 197
+INFO  neurons->connection id map size == 14166
+INFO  species count: 125
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48341404 score=0.98 size=1432
+INFO  Generation 417: end [14:14:02 - 14:14:30] [27971]
+INFO  Generation 418: start
+INFO  connection->neuron id map size == 198
+INFO  neurons->connection id map size == 14205
+INFO  species count: 109
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48341404 score=0.98 size=1432
+INFO  Generation 418: end [14:14:30 - 14:14:56] [25615]
+INFO  Generation 419: start
+INFO  connection->neuron id map size == 202
+INFO  neurons->connection id map size == 14258
+INFO  species count: 105
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48341404 score=0.98 size=1432
+INFO  Generation 419: end [14:14:56 - 14:15:21] [25303]
+INFO  Generation 420: start
+INFO  connection->neuron id map size == 202
+INFO  neurons->connection id map size == 14349
+INFO  species count: 99
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48341404 score=0.98 size=1432
+INFO  Generation 420: end [14:15:21 - 14:15:48] [27113]
+INFO  Generation 421: start
+INFO  connection->neuron id map size == 201
+INFO  neurons->connection id map size == 14520
+INFO  species count: 104
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48341404 score=0.98 size=1432
+INFO  Generation 421: end [14:15:48 - 14:16:15] [26301]
+INFO  Generation 422: start
+INFO  connection->neuron id map size == 205
+INFO  neurons->connection id map size == 14667
+INFO  species count: 100
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48341404 score=0.98 size=1432
+INFO  Generation 422: end [14:16:15 - 14:16:40] [25460]
+INFO  Generation 423: start
+INFO  connection->neuron id map size == 204
+INFO  neurons->connection id map size == 14643
+INFO  species count: 101
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48341404 score=0.98 size=1432
+INFO  Generation 423: end [14:16:40 - 14:17:06] [25942]
+INFO  Generation 424: start
+INFO  connection->neuron id map size == 207
+INFO  neurons->connection id map size == 14738
+INFO  species count: 102
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48341404 score=0.98 size=1432
+INFO  Generation 424: end [14:17:06 - 14:17:32] [25756]
+INFO  Generation 425: start
+INFO  connection->neuron id map size == 208
+INFO  neurons->connection id map size == 14789
+INFO  species count: 99
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48341404 score=0.98 size=1432
+INFO  Generation 425: end [14:17:32 - 14:17:57] [25553]
+INFO  Generation 426: start
+INFO  connection->neuron id map size == 209
+INFO  neurons->connection id map size == 14968
+INFO  species count: 95
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48341404 score=0.98 size=1432
+INFO  Generation 426: end [14:17:57 - 14:18:23] [26114]
+INFO  Generation 427: start
+INFO  connection->neuron id map size == 212
+INFO  neurons->connection id map size == 14935
+INFO  species count: 95
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48341404 score=0.98 size=1432
+INFO  Generation 427: end [14:18:23 - 14:18:49] [25194]
+INFO  Generation 428: start
+INFO  connection->neuron id map size == 206
+INFO  neurons->connection id map size == 14932
+INFO  species count: 94
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48341404 score=0.98 size=1432
+INFO  Generation 428: end [14:18:49 - 14:19:15] [25974]
+INFO  Generation 429: start
+INFO  connection->neuron id map size == 206
+INFO  neurons->connection id map size == 14968
+INFO  species count: 101
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48341404 score=0.98 size=1432
+INFO  Generation 429: end [14:19:15 - 14:19:41] [26536]
+INFO  Generation 430: start
+INFO  connection->neuron id map size == 209
+INFO  neurons->connection id map size == 15091
+INFO  species count: 94
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48341404 score=0.98 size=1432
+INFO  Generation 430: end [14:19:41 - 14:20:08] [26847]
+INFO  Generation 431: start
+INFO  connection->neuron id map size == 216
+INFO  neurons->connection id map size == 15284
+INFO  species count: 95
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48341404 score=0.98 size=1432
+INFO  Generation 431: end [14:20:08 - 14:20:33] [25444]
+INFO  Generation 432: start
+[Fatal Error] :5:1185423: XML document structures must start and end within the same entity.
+INFO  couldn't load NEAT ids from file, starting with new mapping
+INFO  connection->neuron id map size == 2
+INFO  neurons->connection id map size == 75
+INFO  species count: 93
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48341404 score=0.98 size=1432
+INFO  Generation 432: end [14:20:33 - 14:21:00] [27082]
+INFO  Generation 433: start
+INFO  connection->neuron id map size == 219
+INFO  neurons->connection id map size == 15418
+INFO  species count: 94
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48341404 score=0.98 size=1432
+INFO  Generation 433: end [14:21:00 - 14:21:26] [25724]
+INFO  Generation 434: start
+INFO  connection->neuron id map size == 220
+INFO  neurons->connection id map size == 15485
+INFO  species count: 94
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48341404 score=0.98 size=1432
+INFO  Generation 434: end [14:21:26 - 14:21:52] [25428]
+INFO  Generation 435: start
+INFO  connection->neuron id map size == 221
+INFO  neurons->connection id map size == 15536
+INFO  species count: 98
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48341404 score=0.98 size=1432
+INFO  Generation 435: end [14:21:52 - 14:22:16] [24788]
+INFO  Generation 436: start
+INFO  connection->neuron id map size == 223
+INFO  neurons->connection id map size == 15614
+INFO  species count: 97
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48341404 score=0.98 size=1432
+INFO  Generation 436: end [14:22:16 - 14:22:42] [25491]
+INFO  Generation 437: start
+INFO  connection->neuron id map size == 224
+INFO  neurons->connection id map size == 15637
+INFO  species count: 94
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48341404 score=0.98 size=1432
+INFO  Generation 437: end [14:22:42 - 14:23:06] [24461]
+INFO  Generation 438: start
+INFO  connection->neuron id map size == 225
+INFO  neurons->connection id map size == 15683
+INFO  species count: 94
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48341404 score=0.98 size=1432
+INFO  Generation 438: end [14:23:06 - 14:23:31] [24882]
+INFO  Generation 439: start
+INFO  connection->neuron id map size == 227
+INFO  neurons->connection id map size == 15778
+INFO  species count: 98
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48341404 score=0.98 size=1432
+INFO  Generation 439: end [14:23:31 - 14:23:57] [26067]
+INFO  Generation 440: start
+INFO  connection->neuron id map size == 228
+INFO  neurons->connection id map size == 15924
+INFO  species count: 94
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48341404 score=0.98 size=1432
+INFO  Generation 440: end [14:23:57 - 14:24:24] [26271]
+INFO  Generation 441: start
+INFO  connection->neuron id map size == 231
+INFO  neurons->connection id map size == 15999
+INFO  species count: 94
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48341404 score=0.98 size=1432
+INFO  Generation 441: end [14:24:24 - 14:24:50] [26676]
+INFO  Generation 442: start
+INFO  connection->neuron id map size == 233
+INFO  neurons->connection id map size == 16064
+INFO  species count: 87
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48341404 score=0.98 size=1432
+INFO  Generation 442: end [14:24:50 - 14:25:16] [25303]
+INFO  Generation 443: start
+INFO  connection->neuron id map size == 235
+INFO  neurons->connection id map size == 16157
+INFO  species count: 83
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48358960 score=0.98 size=1424
+INFO  Generation 443: end [14:25:16 - 14:25:41] [25381]
+INFO  Generation 444: start
+INFO  connection->neuron id map size == 235
+INFO  neurons->connection id map size == 16186
+INFO  species count: 84
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48358960 score=0.98 size=1424
+INFO  Generation 444: end [14:25:41 - 14:26:04] [23338]
+INFO  Generation 445: start
+INFO  connection->neuron id map size == 238
+INFO  neurons->connection id map size == 16255
+INFO  species count: 86
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48358960 score=0.98 size=1424
+INFO  Generation 445: end [14:26:04 - 14:26:30] [25272]
+INFO  Generation 446: start
+INFO  connection->neuron id map size == 240
+INFO  neurons->connection id map size == 16290
+INFO  species count: 91
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48358960 score=0.98 size=1424
+INFO  Generation 446: end [14:26:30 - 14:26:55] [25880]
+INFO  Generation 447: start
+INFO  connection->neuron id map size == 241
+INFO  neurons->connection id map size == 16332
+INFO  species count: 95
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48358960 score=0.98 size=1424
+INFO  Generation 447: end [14:26:55 - 14:27:19] [23681]
+INFO  Generation 448: start
+INFO  connection->neuron id map size == 241
+INFO  neurons->connection id map size == 16439
+INFO  species count: 92
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48358960 score=0.98 size=1424
+INFO  Generation 448: end [14:27:19 - 14:27:44] [24429]
+INFO  Generation 449: start
+INFO  connection->neuron id map size == 236
+INFO  neurons->connection id map size == 16541
+INFO  species count: 94
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48358960 score=0.98 size=1424
+INFO  Generation 449: end [14:27:44 - 14:28:11] [27051]
+INFO  Generation 450: start
+INFO  connection->neuron id map size == 237
+INFO  neurons->connection id map size == 16657
+INFO  species count: 92
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48358960 score=0.98 size=1424
+INFO  Generation 450: end [14:28:11 - 14:28:38] [27549]
+INFO  Generation 451: start
+INFO  connection->neuron id map size == 239
+INFO  neurons->connection id map size == 16752
+INFO  species count: 100
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48358960 score=0.98 size=1424
+INFO  Generation 451: end [14:28:38 - 14:29:05] [26848]
+INFO  Generation 452: start
+INFO  connection->neuron id map size == 240
+INFO  neurons->connection id map size == 16782
+INFO  species count: 98
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48358960 score=0.98 size=1424
+INFO  Generation 452: end [14:29:05 - 14:29:29] [24414]
+INFO  Generation 453: start
+INFO  connection->neuron id map size == 246
+INFO  neurons->connection id map size == 16799
+INFO  species count: 97
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48358960 score=0.98 size=1424
+INFO  Generation 453: end [14:29:29 - 14:29:55] [25366]
+INFO  Generation 454: start
+INFO  connection->neuron id map size == 248
+INFO  neurons->connection id map size == 16897
+INFO  species count: 98
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48358960 score=0.98 size=1424
+INFO  Generation 454: end [14:29:55 - 14:30:21] [26629]
+INFO  Generation 455: start
+INFO  connection->neuron id map size == 247
+INFO  neurons->connection id map size == 16967
+INFO  species count: 93
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48358960 score=0.98 size=1424
+INFO  Generation 455: end [14:30:21 - 14:30:48] [26177]
+INFO  Generation 456: start
+INFO  connection->neuron id map size == 248
+INFO  neurons->connection id map size == 17002
+INFO  species count: 97
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48358960 score=0.98 size=1424
+INFO  Generation 456: end [14:30:48 - 14:31:12] [24632]
+INFO  Generation 457: start
+INFO  connection->neuron id map size == 248
+INFO  neurons->connection id map size == 17072
+INFO  species count: 95
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48358960 score=0.98 size=1424
+INFO  Generation 457: end [14:31:12 - 14:31:37] [25256]
+INFO  Generation 458: start
+INFO  connection->neuron id map size == 252
+INFO  neurons->connection id map size == 17155
+INFO  species count: 93
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48358960 score=0.98 size=1424
+INFO  Generation 458: end [14:31:37 - 14:32:02] [24196]
+INFO  Generation 459: start
+INFO  connection->neuron id map size == 254
+INFO  neurons->connection id map size == 17233
+INFO  species count: 94
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48358960 score=0.98 size=1424
+INFO  Generation 459: end [14:32:02 - 14:32:26] [24648]
+INFO  Generation 460: start
+INFO  connection->neuron id map size == 254
+INFO  neurons->connection id map size == 17302
+INFO  species count: 98
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48358960 score=0.98 size=1424
+INFO  Generation 460: end [14:32:26 - 14:32:51] [24991]
+INFO  Generation 461: start
+INFO  connection->neuron id map size == 252
+INFO  neurons->connection id map size == 17329
+INFO  species count: 91
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=48358960 score=0.98 size=1424
+INFO  Generation 461: end [14:32:51 - 14:33:17] [25522]
+INFO  Generation 462: start
+INFO  connection->neuron id map size == 256
+INFO  neurons->connection id map size == 17589
+INFO  species count: 96
+INFO  max: id=48364777 score=1.0 size=1369
+INFO  # chromosomes with max fitness: 1
+INFO  champ: id=48364777 score=1.0 size=1369
+INFO  Generation 462: end [14:33:17 - 14:33:42] [25553]
+INFO  generation of first solution == 385
+INFO  champ # connections == 1267
+INFO  champ # hidden nodes == 0
+INFO  Run: end [10:43:02 - 14:33:42] [13840148]
+
+Process finished with exit code 0
