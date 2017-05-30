@@ -16,7 +16,7 @@ import java.util.Objects;
  * Created by lucas on 02/04/2017.
  */
 public class MemoryScreenshot {
-    static final int CELL_SIZE = 10;
+    static final int CELL_SIZE = 3;
     static public boolean PRINT_MEMORY_SCREENSHOTS;
     static private final Object lock = new Object();
     static private int count = 0;

@@ -15,7 +15,7 @@ import java.util.LinkedList;
 public class SimulationScreenshot {
     private LinkedList<GameFieldScreenshot> gameFieldScreenshots;
     private GoalScreenshot simulationGoal = null;
-    private final int SPACE_BETWEEN_GAMEFIELDS = 10;
+    private final int SPACE_BETWEEN_GAMEFIELDS = 1;
     private static int count = 0;
 
 

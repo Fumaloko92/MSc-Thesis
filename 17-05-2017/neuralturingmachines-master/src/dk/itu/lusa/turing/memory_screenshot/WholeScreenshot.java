@@ -48,8 +48,8 @@ class WholeScreenshot {
                     if (i1 == s.write_head.get(i)[0]) {
                         int value = Color.RED.getRGB();
                         for (int x = (i1 + modes_l) * CELL_SIZE; x < (i1 + modes_l + 1) * CELL_SIZE; x++) {
-                            for (int y = 0; y < 2; y++) {
-                                image.setRGB(starting_k - 6 + y, row + x, value);
+                            for (int y = 0; y < 1; y++) {
+                                image.setRGB(starting_k - 3 + y, row + x, value);
                             }
                         }
                     }
@@ -57,8 +57,8 @@ class WholeScreenshot {
                     if (i1 == s.read_head.get(i)[0]) {
                         int value = Color.GREEN.getRGB();
                         for (int x = (i1 + modes_l) * CELL_SIZE; x < (i1 + modes_l + 1) * CELL_SIZE; x++) {
-                            for (int y = 0; y < 2; y++) {
-                                image.setRGB(starting_k - 4 + y, row + x, value);
+                            for (int y = 0; y < 1; y++) {
+                                image.setRGB(starting_k - 2 + y, row + x, value);
                             }
                         }
                     }
@@ -66,8 +66,8 @@ class WholeScreenshot {
                     if (i1 == s.after_shift.get(i)[0]) {
                         int value = Color.ORANGE.getRGB();
                         for (int x = (i1 + modes_l) * CELL_SIZE; x < (i1 + modes_l + 1) * CELL_SIZE; x++) {
-                            for (int y = 0; y < 2; y++) {
-                                image.setRGB(starting_k - 2 + y, row + x, value);
+                            for (int y = 0; y < 1; y++) {
+                                image.setRGB(starting_k - 1 + y, row + x, value);
                             }
                         }
                     }
@@ -94,16 +94,16 @@ class WholeScreenshot {
 
                     for (int i1 = s_tm, j = 0; i1 < s_tm + s.temporalMatrixes.get(i).size(); i1++, j++) {
                         int v = new Color(0, (int)(s.precedenceVectors.get(i).get(j) * 255), 0).getRGB();
-                        for (int x = (i1) * CELL_SIZE; x < (i1 + 1) * CELL_SIZE; x++) {
-                            for (int y = 0; y < 4; y++) {
-                                image.setRGB(starting_k - 6 + y, row + x, v);
+                        for (int x = (i1) * CELL_SIZE; x < (i1+1)* CELL_SIZE; x++) {
+                            for (int y = 0; y < 1; y++) {
+                                image.setRGB(starting_k - 2 + y, row + x, v);
                             }
                         }
                         if (i - 1 >= 0 && s.chosen_modes.get(i)[0] == 0 && j == s.after_shift.get(i - 1)[0]) {
                             int value = Color.BLUE.getRGB();
-                            for (int x = (i1) * CELL_SIZE; x < (i1 + 1) * CELL_SIZE; x++) {
-                                for (int y = 0; y < 2; y++) {
-                                    image.setRGB(starting_k - 2 + y, row + x, value);
+                            for (int x = (i1) * CELL_SIZE; x < (i1+1)* CELL_SIZE; x++) {
+                                for (int y = 0; y < 1; y++) {
+                                    image.setRGB(starting_k - 1 + y, row + x, value);
                                 }
                             }
                         }

@@ -8,7 +8,7 @@ import java.awt.*;
  * Created by lucas on 23/04/2017.
  */
 public class GameFieldScreenshot {
-    static private final int PIXEL_PER_BLOCK = 50;
+    static private final int PIXEL_PER_BLOCK = 5;
     private Color[][] screenshot;
 
     public GameFieldScreenshot(int[][] gameField) {

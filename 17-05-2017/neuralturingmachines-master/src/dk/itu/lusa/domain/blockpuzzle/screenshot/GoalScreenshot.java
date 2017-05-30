@@ -10,7 +10,7 @@ import java.awt.*;
  */
 public class GoalScreenshot {
     private Goal goal;
-    private final int PIXELS_PER_BLOCK = 30;
+    private final int PIXELS_PER_BLOCK = 2;
     private final int SPACE_BETWEEN_CONSTRAINT = 5;
     private Color[][] goalScreenshot;
 
